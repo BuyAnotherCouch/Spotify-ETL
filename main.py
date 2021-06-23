@@ -8,9 +8,11 @@ import json
 import datetime
 import sqlite3
 
+# Token taken from https://developer.spotify.com/console/get-recently-played/
+
 DATABASE_LOCATION = "sqlite:///my_played_tracks.sqlite"
 USER_ID = "level_bastard"
-TOKEN = "BQA6zNXxI7CT8JBWIzeuJV88LFCJGtcxZ0w-ulBLw88gmPjBo0NHjXKJYM49NwdB_2Qma1wIunOhWM08iinb352nJjpV0uj-hK3bGULtRycpMwnGvukeM3RdhluqwVeOF1_Re1KeHMb9J8FRO6rGsjRF"
+TOKEN = "BQBIPEMta7R7GSLHd4yEPLsQcfqmyumh61HJCThybf-2uzZ-dJsg6E9wjqorK_h5WzfFu0P8ZEGORkldXEGwQ5OT5pb7JI4oqaQQI7BQsBfpdqaDI8AaXDXEe0jPjD-goxnE6LhfJ9yqitWi-H-I4TcJ"
 
 def check_data(df: pd.DataFrame) -> bool:
     #Check if the dataframe is empty
