@@ -8,14 +8,6 @@
 
 - Pierre-Olivier B.
 
-## Authors
-
-Jason H.
-
-Kun Z.
-
-Pierre-Olivier B.
-
 ## Resources
 
 ## Frontend 
