@@ -1,5 +1,7 @@
 # Spotify ETL under Amazon S3/Redshift
 
+## Authors
+
 Jason H.
 
 Kun Z.
@@ -8,25 +10,24 @@ Pierre-Olivier B.
 
 ## Resources
 
-## Frontend - NextJS
+### Frontend - NextJS
 
-
-## ETL
+### ETL
 
 - Youtube Part 1,2,3  
 
 
-## Scheduler - Airflow
+### Scheduler - Airflow
 
 Airflow 15 min video
 
-## References
+### References
 
-### Spotify Official
+## Spotify Official
 
 - https://developer.spotify.com/discover/
 
-## API Connection
+### API Connection
 - https://developer.spotify.com/documentation/general/guides/authorization-guide/
 
 - https://github.com/caseychu/spotify-backup
