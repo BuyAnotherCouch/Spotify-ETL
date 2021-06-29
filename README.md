@@ -8,22 +8,32 @@
 
 - Pierre-Olivier B.
 
+## Authors
+
+Jason H.
+
+Kun Z.
+
+Pierre-Olivier B.
+
 ## Resources
 
 ## Frontend 
 
 - NextJS
 
-## ETL
+### ETL
 
-Youtube Part 1,2,3
-
-## Scheduler - Airflow
+- Youtube Part 1,2,3  
 
 
-## References
+### Scheduler - Airflow
 
-### Spotify Official
+Airflow 15 min video
+
+### References
+
+## Spotify Official
 
 - https://developer.spotify.com/discover/
 
