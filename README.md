@@ -7,6 +7,7 @@
 
 ## ETL
 
+[Schema] + [DB Schema]
 
 ## Scheduler - Airflow
 
