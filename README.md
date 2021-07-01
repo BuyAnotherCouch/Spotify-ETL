@@ -18,6 +18,7 @@
 
 - Youtube Part 1,2,3  
 
+[Schema] + [DB Schema]
 
 ### Scheduler - Airflow
 
