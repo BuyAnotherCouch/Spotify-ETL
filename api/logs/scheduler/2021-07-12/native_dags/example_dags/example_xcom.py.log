@@ -1,0 +1,7 @@
+[2021-07-12 13:39:13,620] {scheduler_job.py:182} INFO - Started process (PID=65640) to work on /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2021-07-12 13:39:13,620] {scheduler_job.py:633} INFO - Processing file /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2021-07-12 13:39:13,621] {logging_mixin.py:104} INFO - [2021-07-12 13:39:13,621] {dagbag.py:496} INFO - Filling up the DagBag from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2021-07-12 13:39:13,629] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py
+[2021-07-12 13:39:13,636] {logging_mixin.py:104} INFO - [2021-07-12 13:39:13,636] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-12 13:39:13,685] {logging_mixin.py:104} INFO - [2021-07-12 13:39:13,685] {dag.py:2306} INFO - Setting next_dagrun for example_xcom to 2021-07-10 00:00:00+00:00
+[2021-07-12 13:39:13,698] {scheduler_job.py:190} INFO - Processing /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/env/lib/python3.8/site-packages/airflow/example_dags/example_xcom.py took 0.079 seconds
