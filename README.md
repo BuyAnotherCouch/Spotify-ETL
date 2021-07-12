@@ -10,13 +10,13 @@
 
 ## Resources
 
-## Frontend 
+## Frontend
 
 - NextJS
 
 ### ETL
 
-- Youtube Part 1,2,3  
+- Youtube Part 1,2,3
 
 [Schema] + [DB Schema]
 
@@ -34,12 +34,14 @@ Airflow 15 min video
 
 - https://developer.spotify.com/documentation/general/guides/authorization-guide/
 
-- https://github.com/caseychu/spotify-backup 
+- https://github.com/caseychu/spotify-backup
+
+- https://github.com/btk-dev/recentlyPlayedSongsSpotify/blob/master/apilayer.py
 
 ## ML
 
 https://m.youtube.com/watch?v=EbPYpTcATPg&feature=youtu.be
 
-### NLP - Timeseries 
+### NLP - Timeseries
 
 - PyCaret - TS: https://towardsdatascience.com/multiple-time-series-forecasting-with-pycaret-bc0a779a22fe

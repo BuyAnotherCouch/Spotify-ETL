@@ -139,8 +139,8 @@ def main():
 	                                           + ' an OAuth token with the --token option.')
 	parser.add_argument('--token', metavar='OAUTH_TOKEN', help='use a Spotify OAuth token (requires the '
 	                                                         + '`playlist-read-private` permission)')
-	parser.add_argument('--dump', default='played', choices=['liked,playlists', 'playlists,liked', 'playlists', 'liked'],
-	                    help='dump playlists, played or liked songs, or both (default: played)')
+	parser.add_argument('--dump', default='playlists', choices=['liked,playlists', 'playlists,liked', 'playlists', 'liked'],
+	                    help='dump playlists or liked songs, or both (default: playlists)')
 	parser.add_argument('--format', default='txt', choices=['json', 'txt'], help='output format (default: txt)')
 	parser.add_argument('file', help='output filename', nargs='?')
 	args = parser.parse_args()
@@ -155,7 +155,7 @@ def main():
 		spotify = SpotifyAPI(args.token)
 	else:
 		spotify = SpotifyAPI.authorize(client_id='5c098bcc800e45d49e476265bc9b6934',
-		                               scope='playlist-read-private playlist-read-collaborative user-library-read user-read-recently-played user-read-currently-playing')
+		                               scope='playlist-read-private playlist-read-collaborative user-library-read')
 	
 	# Get the ID of the logged in user.
 	logging.info('Loading user info...')
@@ -164,13 +164,7 @@ def main():
 
 	playlists = []
 
-	# List played songs
-	if 'played' in args.dump:
-		logging.info('Loading played songs...')
-		played_tracks = spotify.list('me/player/recently-played'.format(user_id=me['id']), {'limit': 50})
-		playlists += [{'name': 'played Songs', 'tracks': played_tracks}]
-
-		# List liked songs
+	# List liked songs
 	if 'liked' in args.dump:
 		logging.info('Loading liked songs...')
 		liked_tracks = spotify.list('users/{user_id}/tracks'.format(user_id=me['id']), {'limit': 50})
@@ -191,19 +185,23 @@ def main():
 	# Write the file.
 	logging.info('Writing files...')
 	with open(args.file, 'w', encoding='utf-8') as f:
+		# JSON file.
+		if args.format == 'json':
+			json.dump(playlists, f)
 		
 		# Tab-separated file.
-		for playlist in playlists:
-			f.write(playlist['name'] + '\r\n')
-			for track in playlist['tracks']:
-				if track['track'] is None:
-					continue
-				f.write('{name}\t{artists}\t{album}\t{uri}\r\n'.format(
-					uri=track['track']['uri'],
-					name=track['track']['name'],
-					artists=', '.join([artist['name'] for artist in track['track']['artists']]),
-					album=track['track']['album']['name']
-				))
+		else:
+			for playlist in playlists:
+				f.write(playlist['name'] + '\r\n')
+				for track in playlist['tracks']:
+					if track['track'] is None:
+						continue
+					f.write('{name}\t{artists}\t{album}\t{uri}\r\n'.format(
+						uri=track['track']['uri'],
+						name=track['track']['name'],
+						artists=', '.join([artist['name'] for artist in track['track']['artists']]),
+						album=track['track']['album']['name']
+					))
 				f.write('\r\n')
 	logging.info('Wrote file: ' + args.file)
 
