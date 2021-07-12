@@ -19,6 +19,7 @@ import urllib.parse
 import urllib.request
 import webbrowser
 import datetime
+import os
 
 logging.basicConfig(level=20, datefmt='%I:%M:%S', format='[%(asctime)s] %(message)s')
 
@@ -137,18 +138,23 @@ def main():
 	parser = argparse.ArgumentParser(description='Exports your Spotify playlists. By default, opens a browser window '
 	                                           + 'to authorize the Spotify Web API, but you can also manually specify'
 	                                           + ' an OAuth token with the --token option.')
+
+	# If the function is not longer working. Manual token
 	parser.add_argument('--token', metavar='OAUTH_TOKEN', help='use a Spotify OAuth token (requires the '
 	                                                         + '`playlist-read-private` permission)')
 	parser.add_argument('--dump', default='played', choices=['liked,playlists', 'playlists,liked', 'playlists', 'liked'],
 	                    help='dump playlists, played or liked songs, or both (default: played)')
-	parser.add_argument('--format', default='json', choices=['json', 'txt'], help='output format (default: json)')
+
 	parser.add_argument('file', help='output filename', nargs='?')
+	parser.add_argument('ext', help='output filename', nargs='?')
 	args = parser.parse_args()
 	
 	# If they didn't give a filename, then just prompt them. (They probably just double-clicked.)
 	while not args.file:
-		args.file = input('Filename a must have the extension (e.g. music.json): ')
-		args.format = args.file.split('.')[-1] # split file after the dot
+		args.file = input('Filename without the extension (e.g. music): ')
+		#args.format = args.file.split('.')[-1] # split file after the dot
+		args.ext = input('Add the extension (.json): ')
+
 	
 	# Log into the Spotify API.
 	if args.token:
@@ -164,7 +170,7 @@ def main():
 
 	playlists = []
 
-	# Date
+	# Date Format
 	today = datetime.datetime.now()
 	yesterday = today - datetime.timedelta(days=1)
 	yesterday_unix_timestamp = int(yesterday.timestamp()) * 1000
@@ -172,18 +178,21 @@ def main():
 	# List played songs
 	if 'played' in args.dump:
 		logging.info('Loading played songs...')
-		played_tracks = spotify.list('me/player/recently-played', {'limit': 50,'time': yesterday_unix_timestamp})
+		played_tracks = spotify.list('me/player/recently-played', {'limit': 50, 'time': yesterday_unix_timestamp})
 
 		playlists += [{'name': 'played Songs', 'tracks': played_tracks}]
 	
 	# Write the file.
+	save_path = './DB'
+	completeName = os.path.join(save_path, args.file+ args.ext)
+
 	logging.info('Writing files...')
-	with open(args.file, 'w', encoding='utf-8') as f:
+	with open(completeName, 'w', encoding='utf-8') as f:
 
 		# JSON file.
 		json.dump(playlists, f)
 		
-	logging.info('Wrote file: ' + args.file)
+	logging.info('Wrote file: ' + args.file + args.ext)
 
 if __name__ == '__main__':
 	main()

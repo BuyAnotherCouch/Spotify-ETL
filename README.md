@@ -12,6 +12,8 @@ A Python script that exports all of your Spotify playlists and produce an analys
 
 ## Resources
 
+> Run: python api/main.py
+
 ### References
 
 ## Spotify Official
