@@ -4,7 +4,6 @@
 
 #!/usr/bin/env python3
 
-
 # dependencies
 import argparse 
 import codecs
@@ -19,6 +18,7 @@ import urllib.error
 import urllib.parse
 import urllib.request
 import webbrowser
+import datetime
 
 logging.basicConfig(level=20, datefmt='%I:%M:%S', format='[%(asctime)s] %(message)s')
 
@@ -114,7 +114,7 @@ class SpotifyAPI:
 				self.send_response(200)
 				self.send_header('Content-Type', 'text/html')
 				self.end_headers()
-				self.wfile.write(b'<script>close()</script>Thanks! You may now close this window.')
+				self.wfile.write(b'<script>close()</script>You ar enow connected. Please close this window.')
 
 				access_token = re.search('access_token=([^&]*)', self.path).group(1)
 				logging.info(f'Received access token from Spotify: {access_token}')
@@ -133,7 +133,7 @@ class SpotifyAPI:
 
 
 def main():
-	# Parse arguments.
+	# Parse arguments. --format txt in the command (e.g. python main.py --format txt)
 	parser = argparse.ArgumentParser(description='Exports your Spotify playlists. By default, opens a browser window '
 	                                           + 'to authorize the Spotify Web API, but you can also manually specify'
 	                                           + ' an OAuth token with the --token option.')
@@ -141,14 +141,14 @@ def main():
 	                                                         + '`playlist-read-private` permission)')
 	parser.add_argument('--dump', default='played', choices=['liked,playlists', 'playlists,liked', 'playlists', 'liked'],
 	                    help='dump playlists, played or liked songs, or both (default: played)')
-	parser.add_argument('--format', default='json', choices=['json', 'txt'], help='output format (default: txt)')
+	parser.add_argument('--format', default='json', choices=['json', 'txt'], help='output format (default: json)')
 	parser.add_argument('file', help='output filename', nargs='?')
 	args = parser.parse_args()
 	
 	# If they didn't give a filename, then just prompt them. (They probably just double-clicked.)
 	while not args.file:
-		args.file = input('Enter a file name (e.g. playlists.txt): ')
-		args.format = args.file.split('.')[-1]
+		args.file = input('Filename a must have the extension (e.g. music.json): ')
+		args.format = args.file.split('.')[-1] # split file after the dot
 	
 	# Log into the Spotify API.
 	if args.token:
@@ -160,37 +160,26 @@ def main():
 	# Get the ID of the logged in user.
 	logging.info('Loading user info...')
 	me = spotify.get('me')
-	logging.info('Logged in as {display_name} ({id})'.format(**me))
+	logging.info('Logged in as {display_name} ({id})'.format(**me)) # We do no longer need the username to call the Spotify API. Keep for the logging since I dont't trust tech
 
 	playlists = []
+
+	# Date
+	today = datetime.datetime.now()
+	yesterday = today - datetime.timedelta(days=1)
+	yesterday_unix_timestamp = int(yesterday.timestamp()) * 1000
 
 	# List played songs
 	if 'played' in args.dump:
 		logging.info('Loading played songs...')
-		played_tracks = spotify.list('me/player/recently-played'.format(user_id=me['id']), {'limit': 50})
+		played_tracks = spotify.list('me/player/recently-played', {'limit': 50,'time': yesterday_unix_timestamp})
+
 		playlists += [{'name': 'played Songs', 'tracks': played_tracks}]
-
-		# List liked songs
-	if 'liked' in args.dump:
-		logging.info('Loading liked songs...')
-		liked_tracks = spotify.list('users/{user_id}/tracks'.format(user_id=me['id']), {'limit': 50})
-		playlists += [{'name': 'Liked Songs', 'tracks': liked_tracks}]
-
-	# List all playlists and the tracks in each playlist
-	if 'playlists' in args.dump:
-		logging.info('Loading playlists...')
-		playlist_data = spotify.list('users/{user_id}/playlists'.format(user_id=me['id']), {'limit': 50})
-		logging.info(f'Found {len(playlist_data)} playlists')
-
-		# List all tracks in each playlist
-		for playlist in playlist_data:
-			logging.info('Loading playlist: {name} ({tracks[total]} songs)'.format(**playlist))
-			playlist['tracks'] = spotify.list(playlist['tracks']['href'], {'limit': 100})
-		playlists += playlist_data
 	
 	# Write the file.
 	logging.info('Writing files...')
 	with open(args.file, 'w', encoding='utf-8') as f:
+
 		# JSON file.
 		json.dump(playlists, f)
 		
