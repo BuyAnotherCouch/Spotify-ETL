@@ -1,0 +1,182 @@
+[2021-07-12 14:14:27,242] {scheduler_job.py:182} INFO - Started process (PID=68112) to work on /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 14:14:27,243] {scheduler_job.py:633} INFO - Processing file /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py for tasks to queue
+[2021-07-12 14:14:27,243] {logging_mixin.py:104} INFO - [2021-07-12 14:14:27,243] {dagbag.py:496} INFO - Filling up the DagBag from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 14:14:27,254] {logging_mixin.py:104} INFO - [2021-07-12 14:14:27,251] {dagbag.py:329} ERROR - Failed to import: /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+Traceback (most recent call last):
+  File "/Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py", line 6, in <module>
+    from spotify_etl import run_spotify_etl
+ModuleNotFoundError: No module named 'spotify_etl'
+[2021-07-12 14:14:27,254] {scheduler_job.py:645} WARNING - No viable dags retrieved from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 14:14:27,300] {scheduler_job.py:190} INFO - Processing /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py took 0.058 seconds
+[2021-07-12 14:14:51,402] {scheduler_job.py:182} INFO - Started process (PID=68200) to work on /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 14:14:51,402] {scheduler_job.py:633} INFO - Processing file /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py for tasks to queue
+[2021-07-12 14:14:51,403] {logging_mixin.py:104} INFO - [2021-07-12 14:14:51,403] {dagbag.py:496} INFO - Filling up the DagBag from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 14:14:51,408] {logging_mixin.py:104} INFO - [2021-07-12 14:14:51,408] {dagbag.py:329} ERROR - Failed to import: /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+Traceback (most recent call last):
+  File "/Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py", line 6, in <module>
+    from spotify_etl import run_spotify_etl
+ModuleNotFoundError: No module named 'spotify_etl'
+[2021-07-12 14:14:51,409] {scheduler_job.py:645} WARNING - No viable dags retrieved from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 14:14:51,499] {scheduler_job.py:190} INFO - Processing /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py took 0.097 seconds
+[2021-07-12 14:16:30,541] {scheduler_job.py:182} INFO - Started process (PID=68377) to work on /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 14:16:30,542] {scheduler_job.py:633} INFO - Processing file /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py for tasks to queue
+[2021-07-12 14:16:30,542] {logging_mixin.py:104} INFO - [2021-07-12 14:16:30,542] {dagbag.py:496} INFO - Filling up the DagBag from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 14:16:31,220] {logging_mixin.py:104} INFO - [2021-07-12 14:16:31,219] {dagbag.py:329} ERROR - Failed to import: /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+Traceback (most recent call last):
+  File "/Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py", line 6, in <module>
+    from spotify_job import run_spotify_etl
+  File "/Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_job.py", line 4, in <module>
+    import requests
+ModuleNotFoundError: No module named 'requests'
+[2021-07-12 14:16:31,220] {scheduler_job.py:645} WARNING - No viable dags retrieved from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 14:16:31,341] {scheduler_job.py:190} INFO - Processing /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py took 0.801 seconds
+[2021-07-12 14:17:08,635] {scheduler_job.py:182} INFO - Started process (PID=68485) to work on /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 14:17:08,635] {scheduler_job.py:633} INFO - Processing file /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py for tasks to queue
+[2021-07-12 14:17:08,636] {logging_mixin.py:104} INFO - [2021-07-12 14:17:08,636] {dagbag.py:496} INFO - Filling up the DagBag from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 14:17:08,650] {logging_mixin.py:104} INFO - [2021-07-12 14:17:08,642] {dagbag.py:329} ERROR - Failed to import: /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+Traceback (most recent call last):
+  File "/Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py", line 11, in <module>
+    'start_date': datetime(2020, 11, 8),
+NameError: name 'datetime' is not defined
+[2021-07-12 14:17:08,652] {scheduler_job.py:645} WARNING - No viable dags retrieved from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 14:17:08,701] {scheduler_job.py:190} INFO - Processing /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py took 0.067 seconds
+[2021-07-12 14:18:17,073] {scheduler_job.py:182} INFO - Started process (PID=68664) to work on /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 14:18:17,074] {scheduler_job.py:633} INFO - Processing file /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py for tasks to queue
+[2021-07-12 14:18:17,074] {logging_mixin.py:104} INFO - [2021-07-12 14:18:17,074] {dagbag.py:496} INFO - Filling up the DagBag from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 14:18:17,091] {logging_mixin.py:104} INFO - [2021-07-12 14:18:17,088] {dagbag.py:329} ERROR - Failed to import: /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+Traceback (most recent call last):
+  File "/Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py", line 11, in <module>
+    'start_date': datetime(2020, 11, 8),
+NameError: name 'datetime' is not defined
+[2021-07-12 14:18:17,091] {scheduler_job.py:645} WARNING - No viable dags retrieved from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 14:18:17,160] {scheduler_job.py:190} INFO - Processing /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py took 0.089 seconds
+[2021-07-12 14:19:42,466] {scheduler_job.py:182} INFO - Started process (PID=68751) to work on /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 14:19:42,466] {scheduler_job.py:633} INFO - Processing file /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py for tasks to queue
+[2021-07-12 14:19:42,467] {logging_mixin.py:104} INFO - [2021-07-12 14:19:42,467] {dagbag.py:496} INFO - Filling up the DagBag from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 14:19:42,471] {logging_mixin.py:104} INFO - [2021-07-12 14:19:42,470] {dagbag.py:329} ERROR - Failed to import: /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+Traceback (most recent call last):
+  File "/Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py", line 11, in <module>
+    'start_date': datetime(2020, 11, 8),
+NameError: name 'datetime' is not defined
+[2021-07-12 14:19:42,471] {scheduler_job.py:645} WARNING - No viable dags retrieved from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 14:19:42,507] {scheduler_job.py:190} INFO - Processing /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py took 0.042 seconds
+[2021-07-12 14:20:23,462] {scheduler_job.py:182} INFO - Started process (PID=68812) to work on /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 14:20:23,464] {scheduler_job.py:633} INFO - Processing file /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py for tasks to queue
+[2021-07-12 14:20:23,464] {logging_mixin.py:104} INFO - [2021-07-12 14:20:23,464] {dagbag.py:496} INFO - Filling up the DagBag from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 14:20:23,472] {logging_mixin.py:104} INFO - [2021-07-12 14:20:23,471] {dagbag.py:329} ERROR - Failed to import: /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+Traceback (most recent call last):
+  File "/Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py", line 6, in <module>
+    from spotify_job import run_spotify_etl
+ModuleNotFoundError: No module named 'spotify_job'
+[2021-07-12 14:20:23,473] {scheduler_job.py:645} WARNING - No viable dags retrieved from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 14:20:23,527] {scheduler_job.py:190} INFO - Processing /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py took 0.066 seconds
+[2021-07-12 14:21:04,055] {scheduler_job.py:182} INFO - Started process (PID=68933) to work on /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 14:21:04,056] {scheduler_job.py:633} INFO - Processing file /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py for tasks to queue
+[2021-07-12 14:21:04,057] {logging_mixin.py:104} INFO - [2021-07-12 14:21:04,057] {dagbag.py:496} INFO - Filling up the DagBag from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 14:21:05,308] {logging_mixin.py:104} INFO - [2021-07-12 14:21:05,297] {dagbag.py:329} ERROR - Failed to import: /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+Traceback (most recent call last):
+  File "/Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py", line 6, in <module>
+    from spotify_etl import run_spotify_etl
+  File "/Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_etl.py", line 4, in <module>
+    import requests
+ModuleNotFoundError: No module named 'requests'
+[2021-07-12 14:21:05,309] {scheduler_job.py:645} WARNING - No viable dags retrieved from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 14:21:05,463] {scheduler_job.py:190} INFO - Processing /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py took 1.409 seconds
+[2021-07-12 14:22:08,612] {scheduler_job.py:182} INFO - Started process (PID=69095) to work on /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 14:22:08,613] {scheduler_job.py:633} INFO - Processing file /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py for tasks to queue
+[2021-07-12 14:22:08,613] {logging_mixin.py:104} INFO - [2021-07-12 14:22:08,613] {dagbag.py:496} INFO - Filling up the DagBag from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 14:22:09,178] {logging_mixin.py:104} INFO - [2021-07-12 14:22:09,177] {dagbag.py:329} ERROR - Failed to import: /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+Traceback (most recent call last):
+  File "/Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py", line 11, in <module>
+    'start_date': datetime(2020, 11, 8),
+TypeError: 'module' object is not callable
+[2021-07-12 14:22:09,179] {scheduler_job.py:645} WARNING - No viable dags retrieved from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 14:22:09,221] {scheduler_job.py:190} INFO - Processing /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py took 0.611 seconds
+[2021-07-12 14:23:31,811] {scheduler_job.py:182} INFO - Started process (PID=69187) to work on /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 14:23:31,812] {scheduler_job.py:633} INFO - Processing file /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py for tasks to queue
+[2021-07-12 14:23:31,812] {logging_mixin.py:104} INFO - [2021-07-12 14:23:31,812] {dagbag.py:496} INFO - Filling up the DagBag from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 14:23:32,827] {logging_mixin.py:104} INFO - [2021-07-12 14:23:32,826] {dagbag.py:329} ERROR - Failed to import: /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+Traceback (most recent call last):
+  File "/Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py", line 11, in <module>
+    'start_date': datetime(2020, 11, 8),
+TypeError: 'module' object is not callable
+[2021-07-12 14:23:32,827] {scheduler_job.py:645} WARNING - No viable dags retrieved from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 14:23:32,908] {scheduler_job.py:190} INFO - Processing /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py took 1.097 seconds
+[2021-07-12 14:24:28,357] {scheduler_job.py:182} INFO - Started process (PID=69335) to work on /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 14:24:28,357] {scheduler_job.py:633} INFO - Processing file /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py for tasks to queue
+[2021-07-12 14:24:28,358] {logging_mixin.py:104} INFO - [2021-07-12 14:24:28,358] {dagbag.py:496} INFO - Filling up the DagBag from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 14:24:28,943] {logging_mixin.py:104} INFO - [2021-07-12 14:24:28,942] {dagbag.py:329} ERROR - Failed to import: /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+Traceback (most recent call last):
+  File "/Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py", line 11, in <module>
+    'start_date': datetime(2021, 6, 8),
+TypeError: 'module' object is not callable
+[2021-07-12 14:24:28,944] {scheduler_job.py:645} WARNING - No viable dags retrieved from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 14:24:29,014] {scheduler_job.py:190} INFO - Processing /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py took 0.659 seconds
+[2021-07-12 14:25:33,311] {scheduler_job.py:182} INFO - Started process (PID=69446) to work on /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 14:25:33,311] {scheduler_job.py:633} INFO - Processing file /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py for tasks to queue
+[2021-07-12 14:25:33,312] {logging_mixin.py:104} INFO - [2021-07-12 14:25:33,312] {dagbag.py:496} INFO - Filling up the DagBag from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 14:25:33,927] {logging_mixin.py:104} INFO - [2021-07-12 14:25:33,920] {dagbag.py:329} ERROR - Failed to import: /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+Traceback (most recent call last):
+  File "/Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py", line 29, in <module>
+    run_etl = PythonOperator(
+  File "/Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/env/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 174, in apply_defaults
+    raise AirflowException(msg)
+airflow.exceptions.AirflowException: Argument ['python_callable'] is required
+[2021-07-12 14:25:33,927] {scheduler_job.py:645} WARNING - No viable dags retrieved from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 14:25:33,971] {scheduler_job.py:190} INFO - Processing /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py took 0.661 seconds
+[2021-07-12 14:26:34,762] {scheduler_job.py:182} INFO - Started process (PID=69551) to work on /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 14:26:34,763] {scheduler_job.py:633} INFO - Processing file /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py for tasks to queue
+[2021-07-12 14:26:34,763] {logging_mixin.py:104} INFO - [2021-07-12 14:26:34,763] {dagbag.py:496} INFO - Filling up the DagBag from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 14:26:35,456] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['spotify_dag']) retrieved from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 14:26:36,643] {logging_mixin.py:104} INFO - [2021-07-12 14:26:36,643] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-12 14:26:36,655] {logging_mixin.py:104} INFO - [2021-07-12 14:26:36,655] {dag.py:1852} INFO - Creating ORM DAG for spotify_dag
+[2021-07-12 14:26:36,659] {logging_mixin.py:104} INFO - [2021-07-12 14:26:36,659] {dag.py:2306} INFO - Setting next_dagrun for spotify_dag to 2021-06-17T00:00:00+00:00
+[2021-07-12 14:26:36,673] {scheduler_job.py:190} INFO - Processing /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py took 1.911 seconds
