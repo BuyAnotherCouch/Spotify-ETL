@@ -141,7 +141,7 @@ def main():
 	                                                         + '`playlist-read-private` permission)')
 	parser.add_argument('--dump', default='played', choices=['liked,playlists', 'playlists,liked', 'playlists', 'liked'],
 	                    help='dump playlists, played or liked songs, or both (default: played)')
-	parser.add_argument('--format', default='txt', choices=['json', 'txt'], help='output format (default: txt)')
+	parser.add_argument('--format', default='json', choices=['json', 'txt'], help='output format (default: txt)')
 	parser.add_argument('file', help='output filename', nargs='?')
 	args = parser.parse_args()
 	
@@ -191,20 +191,9 @@ def main():
 	# Write the file.
 	logging.info('Writing files...')
 	with open(args.file, 'w', encoding='utf-8') as f:
+		# JSON file.
+		json.dump(playlists, f)
 		
-		# Tab-separated file.
-		for playlist in playlists:
-			f.write(playlist['name'] + '\r\n')
-			for track in playlist['tracks']:
-				if track['track'] is None:
-					continue
-				f.write('{name}\t{artists}\t{album}\t{uri}\r\n'.format(
-					uri=track['track']['uri'],
-					name=track['track']['name'],
-					artists=', '.join([artist['name'] for artist in track['track']['artists']]),
-					album=track['track']['album']['name']
-				))
-				f.write('\r\n')
 	logging.info('Wrote file: ' + args.file)
 
 if __name__ == '__main__':
