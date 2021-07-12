@@ -18,9 +18,27 @@ A Python script that exports all of your Spotify playlists and produce an analys
 
 > python3 -m venv env
 
-> python3 -m venv env
+> source env/bin/activate
 
-> pip install -r requirements.txt
+> cd api && export AIRFLOW_HOME=$PWD
+
+> pip install -r requirements.txt (To generate one: pip freeze > requirements.txt)
+
+> airflow db init
+
+> airflow scheduler
+
+> airflow webserver
+
+Generate a txt: pip freeze > requirements.txt
+
+### Airflow
+
+> airflow webserver -p 8080
+
+> http://localhost:8080/
+
+User - pass: admin - admin1234
 
 ### References
 
