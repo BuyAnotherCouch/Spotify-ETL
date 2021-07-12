@@ -14,6 +14,14 @@ A Python script that exports all of your Spotify playlists and produce an analys
 
 > Run: python api/main.py
 
+### Venv
+
+> python3 -m venv env
+
+> python3 -m venv env
+
+> pip install -r requirements.txt
+
 ### References
 
 ## Spotify Official
