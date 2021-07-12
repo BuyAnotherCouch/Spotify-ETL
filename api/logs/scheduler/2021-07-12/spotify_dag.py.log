@@ -180,3 +180,997 @@ airflow.exceptions.AirflowException: Argument ['python_callable'] is required
 [2021-07-12 14:26:36,655] {logging_mixin.py:104} INFO - [2021-07-12 14:26:36,655] {dag.py:1852} INFO - Creating ORM DAG for spotify_dag
 [2021-07-12 14:26:36,659] {logging_mixin.py:104} INFO - [2021-07-12 14:26:36,659] {dag.py:2306} INFO - Setting next_dagrun for spotify_dag to 2021-06-17T00:00:00+00:00
 [2021-07-12 14:26:36,673] {scheduler_job.py:190} INFO - Processing /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py took 1.911 seconds
+[2021-07-12 14:28:07,544] {scheduler_job.py:182} INFO - Started process (PID=69867) to work on /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 14:28:07,545] {scheduler_job.py:633} INFO - Processing file /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py for tasks to queue
+[2021-07-12 14:28:07,546] {logging_mixin.py:104} INFO - [2021-07-12 14:28:07,546] {dagbag.py:496} INFO - Filling up the DagBag from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 14:28:08,210] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['spotify_dag']) retrieved from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 14:28:08,252] {logging_mixin.py:104} INFO - [2021-07-12 14:28:08,252] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-12 14:28:08,263] {logging_mixin.py:104} INFO - [2021-07-12 14:28:08,263] {dag.py:2306} INFO - Setting next_dagrun for spotify_dag to 2021-06-17T00:00:00+00:00
+[2021-07-12 14:28:08,275] {scheduler_job.py:190} INFO - Processing /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py took 0.734 seconds
+[2021-07-12 14:29:01,272] {scheduler_job.py:182} INFO - Started process (PID=69914) to work on /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 14:29:01,272] {scheduler_job.py:633} INFO - Processing file /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py for tasks to queue
+[2021-07-12 14:29:01,272] {logging_mixin.py:104} INFO - [2021-07-12 14:29:01,272] {dagbag.py:496} INFO - Filling up the DagBag from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 14:29:01,734] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['spotify_dag']) retrieved from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 14:29:01,773] {logging_mixin.py:104} INFO - [2021-07-12 14:29:01,773] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-12 14:29:01,784] {logging_mixin.py:104} INFO - [2021-07-12 14:29:01,783] {dag.py:2306} INFO - Setting next_dagrun for spotify_dag to 2021-06-17T00:00:00+00:00
+[2021-07-12 14:29:01,795] {scheduler_job.py:190} INFO - Processing /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py took 0.524 seconds
+[2021-07-12 14:29:48,207] {scheduler_job.py:182} INFO - Started process (PID=69958) to work on /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 14:29:48,207] {scheduler_job.py:633} INFO - Processing file /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py for tasks to queue
+[2021-07-12 14:29:48,208] {logging_mixin.py:104} INFO - [2021-07-12 14:29:48,208] {dagbag.py:496} INFO - Filling up the DagBag from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 14:29:48,669] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['spotify_dag']) retrieved from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 14:29:48,709] {logging_mixin.py:104} INFO - [2021-07-12 14:29:48,709] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-12 14:29:48,717] {logging_mixin.py:104} INFO - [2021-07-12 14:29:48,717] {dag.py:2306} INFO - Setting next_dagrun for spotify_dag to 2021-06-17T00:00:00+00:00
+[2021-07-12 14:29:48,726] {scheduler_job.py:190} INFO - Processing /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py took 0.519 seconds
+[2021-07-12 14:30:31,150] {scheduler_job.py:182} INFO - Started process (PID=69997) to work on /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 14:30:31,151] {scheduler_job.py:633} INFO - Processing file /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py for tasks to queue
+[2021-07-12 14:30:31,151] {logging_mixin.py:104} INFO - [2021-07-12 14:30:31,151] {dagbag.py:496} INFO - Filling up the DagBag from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 14:30:31,595] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['spotify_dag']) retrieved from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 14:30:31,636] {logging_mixin.py:104} INFO - [2021-07-12 14:30:31,636] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-12 14:30:31,647] {logging_mixin.py:104} INFO - [2021-07-12 14:30:31,647] {dag.py:2306} INFO - Setting next_dagrun for spotify_dag to 2021-06-17T00:00:00+00:00
+[2021-07-12 14:30:31,659] {scheduler_job.py:190} INFO - Processing /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py took 0.509 seconds
+[2021-07-12 14:31:13,917] {scheduler_job.py:182} INFO - Started process (PID=70033) to work on /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 14:31:13,918] {scheduler_job.py:633} INFO - Processing file /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py for tasks to queue
+[2021-07-12 14:31:13,919] {logging_mixin.py:104} INFO - [2021-07-12 14:31:13,919] {dagbag.py:496} INFO - Filling up the DagBag from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 14:31:14,362] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['spotify_dag']) retrieved from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 14:31:14,403] {logging_mixin.py:104} INFO - [2021-07-12 14:31:14,403] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-12 14:31:14,414] {logging_mixin.py:104} INFO - [2021-07-12 14:31:14,414] {dag.py:2306} INFO - Setting next_dagrun for spotify_dag to 2021-06-17T00:00:00+00:00
+[2021-07-12 14:31:14,429] {scheduler_job.py:190} INFO - Processing /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py took 0.512 seconds
+[2021-07-12 14:31:57,702] {scheduler_job.py:182} INFO - Started process (PID=70071) to work on /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 14:31:57,702] {scheduler_job.py:633} INFO - Processing file /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py for tasks to queue
+[2021-07-12 14:31:57,703] {logging_mixin.py:104} INFO - [2021-07-12 14:31:57,703] {dagbag.py:496} INFO - Filling up the DagBag from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 14:31:58,149] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['spotify_dag']) retrieved from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 14:31:58,191] {logging_mixin.py:104} INFO - [2021-07-12 14:31:58,191] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-12 14:31:58,201] {logging_mixin.py:104} INFO - [2021-07-12 14:31:58,201] {dag.py:2306} INFO - Setting next_dagrun for spotify_dag to 2021-06-17T00:00:00+00:00
+[2021-07-12 14:31:58,212] {scheduler_job.py:190} INFO - Processing /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py took 0.511 seconds
+[2021-07-12 14:32:38,270] {scheduler_job.py:182} INFO - Started process (PID=70107) to work on /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 14:32:38,270] {scheduler_job.py:633} INFO - Processing file /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py for tasks to queue
+[2021-07-12 14:32:38,271] {logging_mixin.py:104} INFO - [2021-07-12 14:32:38,271] {dagbag.py:496} INFO - Filling up the DagBag from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 14:32:38,723] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['spotify_dag']) retrieved from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 14:32:38,764] {logging_mixin.py:104} INFO - [2021-07-12 14:32:38,763] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-12 14:32:38,775] {logging_mixin.py:104} INFO - [2021-07-12 14:32:38,775] {dag.py:2306} INFO - Setting next_dagrun for spotify_dag to 2021-06-17T00:00:00+00:00
+[2021-07-12 14:32:38,788] {scheduler_job.py:190} INFO - Processing /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py took 0.519 seconds
+[2021-07-12 14:33:18,610] {scheduler_job.py:182} INFO - Started process (PID=70145) to work on /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 14:33:18,610] {scheduler_job.py:633} INFO - Processing file /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py for tasks to queue
+[2021-07-12 14:33:18,611] {logging_mixin.py:104} INFO - [2021-07-12 14:33:18,610] {dagbag.py:496} INFO - Filling up the DagBag from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 14:33:19,063] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['spotify_dag']) retrieved from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 14:33:19,102] {logging_mixin.py:104} INFO - [2021-07-12 14:33:19,102] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-12 14:33:19,110] {logging_mixin.py:104} INFO - [2021-07-12 14:33:19,110] {dag.py:2306} INFO - Setting next_dagrun for spotify_dag to 2021-06-17T00:00:00+00:00
+[2021-07-12 14:33:19,122] {scheduler_job.py:190} INFO - Processing /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py took 0.513 seconds
+[2021-07-12 14:34:00,261] {scheduler_job.py:182} INFO - Started process (PID=70183) to work on /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 14:34:00,262] {scheduler_job.py:633} INFO - Processing file /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py for tasks to queue
+[2021-07-12 14:34:00,262] {logging_mixin.py:104} INFO - [2021-07-12 14:34:00,262] {dagbag.py:496} INFO - Filling up the DagBag from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 14:34:00,752] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['spotify_dag']) retrieved from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 14:34:00,797] {logging_mixin.py:104} INFO - [2021-07-12 14:34:00,797] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-12 14:34:00,805] {logging_mixin.py:104} INFO - [2021-07-12 14:34:00,805] {dag.py:2306} INFO - Setting next_dagrun for spotify_dag to 2021-06-17T00:00:00+00:00
+[2021-07-12 14:34:00,814] {scheduler_job.py:190} INFO - Processing /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py took 0.553 seconds
+[2021-07-12 14:34:43,382] {scheduler_job.py:182} INFO - Started process (PID=70221) to work on /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 14:34:43,383] {scheduler_job.py:633} INFO - Processing file /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py for tasks to queue
+[2021-07-12 14:34:43,383] {logging_mixin.py:104} INFO - [2021-07-12 14:34:43,383] {dagbag.py:496} INFO - Filling up the DagBag from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 14:34:43,827] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['spotify_dag']) retrieved from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 14:34:43,865] {logging_mixin.py:104} INFO - [2021-07-12 14:34:43,865] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-12 14:34:43,875] {logging_mixin.py:104} INFO - [2021-07-12 14:34:43,874] {dag.py:2306} INFO - Setting next_dagrun for spotify_dag to 2021-06-17T00:00:00+00:00
+[2021-07-12 14:34:43,885] {scheduler_job.py:190} INFO - Processing /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py took 0.504 seconds
+[2021-07-12 14:35:25,914] {scheduler_job.py:182} INFO - Started process (PID=70257) to work on /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 14:35:25,915] {scheduler_job.py:633} INFO - Processing file /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py for tasks to queue
+[2021-07-12 14:35:25,915] {logging_mixin.py:104} INFO - [2021-07-12 14:35:25,915] {dagbag.py:496} INFO - Filling up the DagBag from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 14:35:26,357] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['spotify_dag']) retrieved from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 14:35:26,394] {logging_mixin.py:104} INFO - [2021-07-12 14:35:26,394] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-12 14:35:26,402] {logging_mixin.py:104} INFO - [2021-07-12 14:35:26,402] {dag.py:2306} INFO - Setting next_dagrun for spotify_dag to 2021-06-17T00:00:00+00:00
+[2021-07-12 14:35:26,413] {scheduler_job.py:190} INFO - Processing /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py took 0.500 seconds
+[2021-07-12 14:36:09,401] {scheduler_job.py:182} INFO - Started process (PID=70297) to work on /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 14:36:09,402] {scheduler_job.py:633} INFO - Processing file /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py for tasks to queue
+[2021-07-12 14:36:09,402] {logging_mixin.py:104} INFO - [2021-07-12 14:36:09,402] {dagbag.py:496} INFO - Filling up the DagBag from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 14:36:09,855] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['spotify_dag']) retrieved from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 14:36:09,895] {logging_mixin.py:104} INFO - [2021-07-12 14:36:09,895] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-12 14:36:09,904] {logging_mixin.py:104} INFO - [2021-07-12 14:36:09,904] {dag.py:2306} INFO - Setting next_dagrun for spotify_dag to 2021-06-17T00:00:00+00:00
+[2021-07-12 14:36:09,919] {scheduler_job.py:190} INFO - Processing /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py took 0.518 seconds
+[2021-07-12 14:36:51,344] {scheduler_job.py:182} INFO - Started process (PID=70334) to work on /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 14:36:51,345] {scheduler_job.py:633} INFO - Processing file /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py for tasks to queue
+[2021-07-12 14:36:51,345] {logging_mixin.py:104} INFO - [2021-07-12 14:36:51,345] {dagbag.py:496} INFO - Filling up the DagBag from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 14:36:51,794] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['spotify_dag']) retrieved from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 14:36:51,831] {logging_mixin.py:104} INFO - [2021-07-12 14:36:51,831] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-12 14:36:51,841] {logging_mixin.py:104} INFO - [2021-07-12 14:36:51,840] {dag.py:2306} INFO - Setting next_dagrun for spotify_dag to 2021-06-17T00:00:00+00:00
+[2021-07-12 14:36:51,853] {scheduler_job.py:190} INFO - Processing /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py took 0.510 seconds
+[2021-07-12 14:37:35,236] {scheduler_job.py:182} INFO - Started process (PID=70373) to work on /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 14:37:35,236] {scheduler_job.py:633} INFO - Processing file /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py for tasks to queue
+[2021-07-12 14:37:35,237] {logging_mixin.py:104} INFO - [2021-07-12 14:37:35,236] {dagbag.py:496} INFO - Filling up the DagBag from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 14:37:35,689] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['spotify_dag']) retrieved from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 14:37:35,735] {logging_mixin.py:104} INFO - [2021-07-12 14:37:35,735] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-12 14:37:35,744] {logging_mixin.py:104} INFO - [2021-07-12 14:37:35,744] {dag.py:2306} INFO - Setting next_dagrun for spotify_dag to 2021-06-17T00:00:00+00:00
+[2021-07-12 14:37:35,754] {scheduler_job.py:190} INFO - Processing /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py took 0.519 seconds
+[2021-07-12 14:38:19,146] {scheduler_job.py:182} INFO - Started process (PID=70413) to work on /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 14:38:19,146] {scheduler_job.py:633} INFO - Processing file /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py for tasks to queue
+[2021-07-12 14:38:19,147] {logging_mixin.py:104} INFO - [2021-07-12 14:38:19,147] {dagbag.py:496} INFO - Filling up the DagBag from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 14:38:19,600] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['spotify_dag']) retrieved from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 14:38:19,641] {logging_mixin.py:104} INFO - [2021-07-12 14:38:19,641] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-12 14:38:19,650] {logging_mixin.py:104} INFO - [2021-07-12 14:38:19,650] {dag.py:2306} INFO - Setting next_dagrun for spotify_dag to 2021-06-17T00:00:00+00:00
+[2021-07-12 14:38:19,660] {scheduler_job.py:190} INFO - Processing /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py took 0.515 seconds
+[2021-07-12 14:39:02,230] {scheduler_job.py:182} INFO - Started process (PID=70451) to work on /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 14:39:02,230] {scheduler_job.py:633} INFO - Processing file /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py for tasks to queue
+[2021-07-12 14:39:02,231] {logging_mixin.py:104} INFO - [2021-07-12 14:39:02,231] {dagbag.py:496} INFO - Filling up the DagBag from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 14:39:02,684] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['spotify_dag']) retrieved from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 14:39:02,726] {logging_mixin.py:104} INFO - [2021-07-12 14:39:02,726] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-12 14:39:02,734] {logging_mixin.py:104} INFO - [2021-07-12 14:39:02,734] {dag.py:2306} INFO - Setting next_dagrun for spotify_dag to 2021-06-17T00:00:00+00:00
+[2021-07-12 14:39:02,747] {scheduler_job.py:190} INFO - Processing /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py took 0.518 seconds
+[2021-07-12 14:39:45,072] {scheduler_job.py:182} INFO - Started process (PID=70487) to work on /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 14:39:45,073] {scheduler_job.py:633} INFO - Processing file /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py for tasks to queue
+[2021-07-12 14:39:45,073] {logging_mixin.py:104} INFO - [2021-07-12 14:39:45,073] {dagbag.py:496} INFO - Filling up the DagBag from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 14:39:45,521] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['spotify_dag']) retrieved from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 14:39:45,561] {logging_mixin.py:104} INFO - [2021-07-12 14:39:45,561] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-12 14:39:45,569] {logging_mixin.py:104} INFO - [2021-07-12 14:39:45,569] {dag.py:2306} INFO - Setting next_dagrun for spotify_dag to 2021-06-17T00:00:00+00:00
+[2021-07-12 14:39:45,581] {scheduler_job.py:190} INFO - Processing /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py took 0.509 seconds
+[2021-07-12 14:40:29,732] {scheduler_job.py:182} INFO - Started process (PID=70528) to work on /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 14:40:29,733] {scheduler_job.py:633} INFO - Processing file /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py for tasks to queue
+[2021-07-12 14:40:29,733] {logging_mixin.py:104} INFO - [2021-07-12 14:40:29,733] {dagbag.py:496} INFO - Filling up the DagBag from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 14:40:30,182] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['spotify_dag']) retrieved from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 14:40:30,224] {logging_mixin.py:104} INFO - [2021-07-12 14:40:30,223] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-12 14:40:30,235] {logging_mixin.py:104} INFO - [2021-07-12 14:40:30,234] {dag.py:2306} INFO - Setting next_dagrun for spotify_dag to 2021-06-17T00:00:00+00:00
+[2021-07-12 14:40:30,246] {scheduler_job.py:190} INFO - Processing /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py took 0.514 seconds
+[2021-07-12 14:41:14,324] {scheduler_job.py:182} INFO - Started process (PID=70566) to work on /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 14:41:14,325] {scheduler_job.py:633} INFO - Processing file /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py for tasks to queue
+[2021-07-12 14:41:14,325] {logging_mixin.py:104} INFO - [2021-07-12 14:41:14,325] {dagbag.py:496} INFO - Filling up the DagBag from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 14:41:14,788] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['spotify_dag']) retrieved from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 14:41:14,828] {logging_mixin.py:104} INFO - [2021-07-12 14:41:14,828] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-12 14:41:14,837] {logging_mixin.py:104} INFO - [2021-07-12 14:41:14,836] {dag.py:2306} INFO - Setting next_dagrun for spotify_dag to 2021-06-17T00:00:00+00:00
+[2021-07-12 14:41:14,848] {scheduler_job.py:190} INFO - Processing /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py took 0.527 seconds
+[2021-07-12 14:41:58,266] {scheduler_job.py:182} INFO - Started process (PID=70605) to work on /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 14:41:58,268] {scheduler_job.py:633} INFO - Processing file /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py for tasks to queue
+[2021-07-12 14:41:58,269] {logging_mixin.py:104} INFO - [2021-07-12 14:41:58,269] {dagbag.py:496} INFO - Filling up the DagBag from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 14:41:58,717] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['spotify_dag']) retrieved from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 14:41:58,756] {logging_mixin.py:104} INFO - [2021-07-12 14:41:58,756] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-12 14:41:58,765] {logging_mixin.py:104} INFO - [2021-07-12 14:41:58,765] {dag.py:2306} INFO - Setting next_dagrun for spotify_dag to 2021-06-17T00:00:00+00:00
+[2021-07-12 14:41:58,779] {scheduler_job.py:190} INFO - Processing /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py took 0.515 seconds
+[2021-07-12 14:42:41,215] {scheduler_job.py:182} INFO - Started process (PID=70641) to work on /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 14:42:41,215] {scheduler_job.py:633} INFO - Processing file /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py for tasks to queue
+[2021-07-12 14:42:41,216] {logging_mixin.py:104} INFO - [2021-07-12 14:42:41,216] {dagbag.py:496} INFO - Filling up the DagBag from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 14:42:41,666] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['spotify_dag']) retrieved from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 14:42:41,707] {logging_mixin.py:104} INFO - [2021-07-12 14:42:41,707] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-12 14:42:41,719] {logging_mixin.py:104} INFO - [2021-07-12 14:42:41,719] {dag.py:2306} INFO - Setting next_dagrun for spotify_dag to 2021-06-17T00:00:00+00:00
+[2021-07-12 14:42:41,730] {scheduler_job.py:190} INFO - Processing /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py took 0.516 seconds
+[2021-07-12 14:43:25,060] {scheduler_job.py:182} INFO - Started process (PID=70679) to work on /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 14:43:25,060] {scheduler_job.py:633} INFO - Processing file /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py for tasks to queue
+[2021-07-12 14:43:25,061] {logging_mixin.py:104} INFO - [2021-07-12 14:43:25,061] {dagbag.py:496} INFO - Filling up the DagBag from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 14:43:25,526] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['spotify_dag']) retrieved from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 14:43:25,565] {logging_mixin.py:104} INFO - [2021-07-12 14:43:25,564] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-12 14:43:25,579] {logging_mixin.py:104} INFO - [2021-07-12 14:43:25,579] {dag.py:2306} INFO - Setting next_dagrun for spotify_dag to 2021-06-17T00:00:00+00:00
+[2021-07-12 14:43:25,593] {scheduler_job.py:190} INFO - Processing /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py took 0.533 seconds
+[2021-07-12 14:44:08,214] {scheduler_job.py:182} INFO - Started process (PID=70717) to work on /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 14:44:08,214] {scheduler_job.py:633} INFO - Processing file /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py for tasks to queue
+[2021-07-12 14:44:08,215] {logging_mixin.py:104} INFO - [2021-07-12 14:44:08,215] {dagbag.py:496} INFO - Filling up the DagBag from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 14:44:08,668] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['spotify_dag']) retrieved from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 14:44:08,707] {logging_mixin.py:104} INFO - [2021-07-12 14:44:08,707] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-12 14:44:08,715] {logging_mixin.py:104} INFO - [2021-07-12 14:44:08,715] {dag.py:2306} INFO - Setting next_dagrun for spotify_dag to 2021-06-17T00:00:00+00:00
+[2021-07-12 14:44:08,726] {scheduler_job.py:190} INFO - Processing /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py took 0.513 seconds
+[2021-07-12 14:44:52,207] {scheduler_job.py:182} INFO - Started process (PID=70759) to work on /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 14:44:52,208] {scheduler_job.py:633} INFO - Processing file /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py for tasks to queue
+[2021-07-12 14:44:52,208] {logging_mixin.py:104} INFO - [2021-07-12 14:44:52,208] {dagbag.py:496} INFO - Filling up the DagBag from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 14:44:52,653] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['spotify_dag']) retrieved from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 14:44:52,691] {logging_mixin.py:104} INFO - [2021-07-12 14:44:52,690] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-12 14:44:52,701] {logging_mixin.py:104} INFO - [2021-07-12 14:44:52,701] {dag.py:2306} INFO - Setting next_dagrun for spotify_dag to 2021-06-17T00:00:00+00:00
+[2021-07-12 14:44:52,712] {scheduler_job.py:190} INFO - Processing /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py took 0.505 seconds
+[2021-07-12 14:45:35,236] {scheduler_job.py:182} INFO - Started process (PID=70795) to work on /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 14:45:35,237] {scheduler_job.py:633} INFO - Processing file /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py for tasks to queue
+[2021-07-12 14:45:35,237] {logging_mixin.py:104} INFO - [2021-07-12 14:45:35,237] {dagbag.py:496} INFO - Filling up the DagBag from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 14:45:35,693] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['spotify_dag']) retrieved from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 14:45:35,734] {logging_mixin.py:104} INFO - [2021-07-12 14:45:35,734] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-12 14:45:35,745] {logging_mixin.py:104} INFO - [2021-07-12 14:45:35,745] {dag.py:2306} INFO - Setting next_dagrun for spotify_dag to 2021-06-17T00:00:00+00:00
+[2021-07-12 14:45:35,756] {scheduler_job.py:190} INFO - Processing /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py took 0.522 seconds
+[2021-07-12 14:46:19,094] {scheduler_job.py:182} INFO - Started process (PID=70834) to work on /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 14:46:19,094] {scheduler_job.py:633} INFO - Processing file /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py for tasks to queue
+[2021-07-12 14:46:19,095] {logging_mixin.py:104} INFO - [2021-07-12 14:46:19,095] {dagbag.py:496} INFO - Filling up the DagBag from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 14:46:19,543] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['spotify_dag']) retrieved from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 14:46:19,586] {logging_mixin.py:104} INFO - [2021-07-12 14:46:19,586] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-12 14:46:19,595] {logging_mixin.py:104} INFO - [2021-07-12 14:46:19,595] {dag.py:2306} INFO - Setting next_dagrun for spotify_dag to 2021-06-17T00:00:00+00:00
+[2021-07-12 14:46:19,606] {scheduler_job.py:190} INFO - Processing /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py took 0.513 seconds
+[2021-07-12 14:46:59,993] {scheduler_job.py:182} INFO - Started process (PID=70870) to work on /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 14:46:59,993] {scheduler_job.py:633} INFO - Processing file /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py for tasks to queue
+[2021-07-12 14:46:59,994] {logging_mixin.py:104} INFO - [2021-07-12 14:46:59,994] {dagbag.py:496} INFO - Filling up the DagBag from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 14:47:00,448] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['spotify_dag']) retrieved from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 14:47:00,490] {logging_mixin.py:104} INFO - [2021-07-12 14:47:00,489] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-12 14:47:00,499] {logging_mixin.py:104} INFO - [2021-07-12 14:47:00,499] {dag.py:2306} INFO - Setting next_dagrun for spotify_dag to 2021-06-17T00:00:00+00:00
+[2021-07-12 14:47:00,512] {scheduler_job.py:190} INFO - Processing /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py took 0.520 seconds
+[2021-07-12 14:47:41,420] {scheduler_job.py:182} INFO - Started process (PID=70906) to work on /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 14:47:41,421] {scheduler_job.py:633} INFO - Processing file /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py for tasks to queue
+[2021-07-12 14:47:41,421] {logging_mixin.py:104} INFO - [2021-07-12 14:47:41,421] {dagbag.py:496} INFO - Filling up the DagBag from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 14:47:41,870] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['spotify_dag']) retrieved from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 14:47:41,913] {logging_mixin.py:104} INFO - [2021-07-12 14:47:41,912] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-12 14:47:41,923] {logging_mixin.py:104} INFO - [2021-07-12 14:47:41,923] {dag.py:2306} INFO - Setting next_dagrun for spotify_dag to 2021-06-17T00:00:00+00:00
+[2021-07-12 14:47:41,936] {scheduler_job.py:190} INFO - Processing /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py took 0.517 seconds
+[2021-07-12 14:48:25,630] {scheduler_job.py:182} INFO - Started process (PID=70945) to work on /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 14:48:25,631] {scheduler_job.py:633} INFO - Processing file /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py for tasks to queue
+[2021-07-12 14:48:25,632] {logging_mixin.py:104} INFO - [2021-07-12 14:48:25,631] {dagbag.py:496} INFO - Filling up the DagBag from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 14:48:26,076] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['spotify_dag']) retrieved from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 14:48:26,120] {logging_mixin.py:104} INFO - [2021-07-12 14:48:26,120] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-12 14:48:26,130] {logging_mixin.py:104} INFO - [2021-07-12 14:48:26,130] {dag.py:2306} INFO - Setting next_dagrun for spotify_dag to 2021-06-17T00:00:00+00:00
+[2021-07-12 14:48:26,145] {scheduler_job.py:190} INFO - Processing /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py took 0.515 seconds
+[2021-07-12 14:49:11,560] {scheduler_job.py:182} INFO - Started process (PID=70987) to work on /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 14:49:11,561] {scheduler_job.py:633} INFO - Processing file /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py for tasks to queue
+[2021-07-12 14:49:11,562] {logging_mixin.py:104} INFO - [2021-07-12 14:49:11,561] {dagbag.py:496} INFO - Filling up the DagBag from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 14:49:12,019] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['spotify_dag']) retrieved from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 14:49:12,064] {logging_mixin.py:104} INFO - [2021-07-12 14:49:12,064] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-12 14:49:12,076] {logging_mixin.py:104} INFO - [2021-07-12 14:49:12,076] {dag.py:2306} INFO - Setting next_dagrun for spotify_dag to 2021-06-17T00:00:00+00:00
+[2021-07-12 14:49:12,089] {scheduler_job.py:190} INFO - Processing /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py took 0.531 seconds
+[2021-07-12 14:49:58,096] {scheduler_job.py:182} INFO - Started process (PID=71026) to work on /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 14:49:58,097] {scheduler_job.py:633} INFO - Processing file /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py for tasks to queue
+[2021-07-12 14:49:58,097] {logging_mixin.py:104} INFO - [2021-07-12 14:49:58,097] {dagbag.py:496} INFO - Filling up the DagBag from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 14:49:58,568] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['spotify_dag']) retrieved from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 14:49:58,616] {logging_mixin.py:104} INFO - [2021-07-12 14:49:58,615] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-12 14:49:58,625] {logging_mixin.py:104} INFO - [2021-07-12 14:49:58,625] {dag.py:2306} INFO - Setting next_dagrun for spotify_dag to 2021-06-17T00:00:00+00:00
+[2021-07-12 14:49:58,637] {scheduler_job.py:190} INFO - Processing /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py took 0.541 seconds
+[2021-07-12 14:50:44,379] {scheduler_job.py:182} INFO - Started process (PID=71064) to work on /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 14:50:44,380] {scheduler_job.py:633} INFO - Processing file /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py for tasks to queue
+[2021-07-12 14:50:44,380] {logging_mixin.py:104} INFO - [2021-07-12 14:50:44,380] {dagbag.py:496} INFO - Filling up the DagBag from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 14:50:44,848] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['spotify_dag']) retrieved from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 14:50:44,889] {logging_mixin.py:104} INFO - [2021-07-12 14:50:44,889] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-12 14:50:44,900] {logging_mixin.py:104} INFO - [2021-07-12 14:50:44,900] {dag.py:2306} INFO - Setting next_dagrun for spotify_dag to 2021-06-17T00:00:00+00:00
+[2021-07-12 14:50:44,913] {scheduler_job.py:190} INFO - Processing /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py took 0.534 seconds
+[2021-07-12 14:51:32,431] {scheduler_job.py:182} INFO - Started process (PID=71105) to work on /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 14:51:32,431] {scheduler_job.py:633} INFO - Processing file /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py for tasks to queue
+[2021-07-12 14:51:32,432] {logging_mixin.py:104} INFO - [2021-07-12 14:51:32,431] {dagbag.py:496} INFO - Filling up the DagBag from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 14:51:32,892] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['spotify_dag']) retrieved from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 14:51:32,934] {logging_mixin.py:104} INFO - [2021-07-12 14:51:32,934] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-12 14:51:32,944] {logging_mixin.py:104} INFO - [2021-07-12 14:51:32,944] {dag.py:2306} INFO - Setting next_dagrun for spotify_dag to 2021-06-17T00:00:00+00:00
+[2021-07-12 14:51:32,958] {scheduler_job.py:190} INFO - Processing /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py took 0.528 seconds
+[2021-07-12 14:52:20,726] {scheduler_job.py:182} INFO - Started process (PID=71146) to work on /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 14:52:20,726] {scheduler_job.py:633} INFO - Processing file /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py for tasks to queue
+[2021-07-12 14:52:20,727] {logging_mixin.py:104} INFO - [2021-07-12 14:52:20,727] {dagbag.py:496} INFO - Filling up the DagBag from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 14:52:21,215] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['spotify_dag']) retrieved from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 14:52:21,257] {logging_mixin.py:104} INFO - [2021-07-12 14:52:21,257] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-12 14:52:21,269] {logging_mixin.py:104} INFO - [2021-07-12 14:52:21,268] {dag.py:2306} INFO - Setting next_dagrun for spotify_dag to 2021-06-17T00:00:00+00:00
+[2021-07-12 14:52:21,280] {scheduler_job.py:190} INFO - Processing /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py took 0.555 seconds
+[2021-07-12 14:53:06,051] {scheduler_job.py:182} INFO - Started process (PID=71184) to work on /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 14:53:06,051] {scheduler_job.py:633} INFO - Processing file /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py for tasks to queue
+[2021-07-12 14:53:06,052] {logging_mixin.py:104} INFO - [2021-07-12 14:53:06,052] {dagbag.py:496} INFO - Filling up the DagBag from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 14:53:06,543] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['spotify_dag']) retrieved from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 14:53:06,588] {logging_mixin.py:104} INFO - [2021-07-12 14:53:06,588] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-12 14:53:06,597] {logging_mixin.py:104} INFO - [2021-07-12 14:53:06,597] {dag.py:2306} INFO - Setting next_dagrun for spotify_dag to 2021-06-17T00:00:00+00:00
+[2021-07-12 14:53:06,610] {scheduler_job.py:190} INFO - Processing /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py took 0.560 seconds
+[2021-07-12 14:53:51,602] {scheduler_job.py:182} INFO - Started process (PID=71224) to work on /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 14:53:51,602] {scheduler_job.py:633} INFO - Processing file /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py for tasks to queue
+[2021-07-12 14:53:51,603] {logging_mixin.py:104} INFO - [2021-07-12 14:53:51,603] {dagbag.py:496} INFO - Filling up the DagBag from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 14:53:52,085] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['spotify_dag']) retrieved from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 14:53:52,129] {logging_mixin.py:104} INFO - [2021-07-12 14:53:52,129] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-12 14:53:52,139] {logging_mixin.py:104} INFO - [2021-07-12 14:53:52,139] {dag.py:2306} INFO - Setting next_dagrun for spotify_dag to 2021-06-17T00:00:00+00:00
+[2021-07-12 14:53:52,151] {scheduler_job.py:190} INFO - Processing /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py took 0.550 seconds
+[2021-07-12 14:54:38,056] {scheduler_job.py:182} INFO - Started process (PID=71262) to work on /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 14:54:38,057] {scheduler_job.py:633} INFO - Processing file /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py for tasks to queue
+[2021-07-12 14:54:38,058] {logging_mixin.py:104} INFO - [2021-07-12 14:54:38,058] {dagbag.py:496} INFO - Filling up the DagBag from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 14:54:38,537] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['spotify_dag']) retrieved from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 14:54:38,584] {logging_mixin.py:104} INFO - [2021-07-12 14:54:38,583] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-12 14:54:38,594] {logging_mixin.py:104} INFO - [2021-07-12 14:54:38,594] {dag.py:2306} INFO - Setting next_dagrun for spotify_dag to 2021-06-17T00:00:00+00:00
+[2021-07-12 14:54:38,605] {scheduler_job.py:190} INFO - Processing /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py took 0.549 seconds
+[2021-07-12 14:55:23,809] {scheduler_job.py:182} INFO - Started process (PID=71301) to work on /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 14:55:23,810] {scheduler_job.py:633} INFO - Processing file /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py for tasks to queue
+[2021-07-12 14:55:23,811] {logging_mixin.py:104} INFO - [2021-07-12 14:55:23,811] {dagbag.py:496} INFO - Filling up the DagBag from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 14:55:24,271] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['spotify_dag']) retrieved from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 14:55:24,318] {logging_mixin.py:104} INFO - [2021-07-12 14:55:24,318] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-12 14:55:24,330] {logging_mixin.py:104} INFO - [2021-07-12 14:55:24,330] {dag.py:2306} INFO - Setting next_dagrun for spotify_dag to 2021-06-17T00:00:00+00:00
+[2021-07-12 14:55:24,343] {scheduler_job.py:190} INFO - Processing /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py took 0.536 seconds
+[2021-07-12 14:56:09,278] {scheduler_job.py:182} INFO - Started process (PID=71339) to work on /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 14:56:09,278] {scheduler_job.py:633} INFO - Processing file /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py for tasks to queue
+[2021-07-12 14:56:09,279] {logging_mixin.py:104} INFO - [2021-07-12 14:56:09,279] {dagbag.py:496} INFO - Filling up the DagBag from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 14:56:09,758] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['spotify_dag']) retrieved from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 14:56:09,808] {logging_mixin.py:104} INFO - [2021-07-12 14:56:09,808] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-12 14:56:09,818] {logging_mixin.py:104} INFO - [2021-07-12 14:56:09,818] {dag.py:2306} INFO - Setting next_dagrun for spotify_dag to 2021-06-17T00:00:00+00:00
+[2021-07-12 14:56:09,830] {scheduler_job.py:190} INFO - Processing /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py took 0.553 seconds
+[2021-07-12 14:56:58,906] {scheduler_job.py:182} INFO - Started process (PID=71386) to work on /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 14:56:58,907] {scheduler_job.py:633} INFO - Processing file /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py for tasks to queue
+[2021-07-12 14:56:58,907] {logging_mixin.py:104} INFO - [2021-07-12 14:56:58,907] {dagbag.py:496} INFO - Filling up the DagBag from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 14:56:59,377] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['spotify_dag']) retrieved from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 14:56:59,420] {logging_mixin.py:104} INFO - [2021-07-12 14:56:59,420] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-12 14:56:59,432] {logging_mixin.py:104} INFO - [2021-07-12 14:56:59,431] {dag.py:2306} INFO - Setting next_dagrun for spotify_dag to 2021-06-17T00:00:00+00:00
+[2021-07-12 14:56:59,442] {scheduler_job.py:190} INFO - Processing /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py took 0.536 seconds
+[2021-07-12 14:57:47,691] {scheduler_job.py:182} INFO - Started process (PID=71427) to work on /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 14:57:47,691] {scheduler_job.py:633} INFO - Processing file /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py for tasks to queue
+[2021-07-12 14:57:47,692] {logging_mixin.py:104} INFO - [2021-07-12 14:57:47,691] {dagbag.py:496} INFO - Filling up the DagBag from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 14:57:48,156] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['spotify_dag']) retrieved from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 14:57:48,199] {logging_mixin.py:104} INFO - [2021-07-12 14:57:48,199] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-12 14:57:48,208] {logging_mixin.py:104} INFO - [2021-07-12 14:57:48,208] {dag.py:2306} INFO - Setting next_dagrun for spotify_dag to 2021-06-17T00:00:00+00:00
+[2021-07-12 14:57:48,219] {scheduler_job.py:190} INFO - Processing /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py took 0.529 seconds
+[2021-07-12 14:58:33,710] {scheduler_job.py:182} INFO - Started process (PID=71467) to work on /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 14:58:33,710] {scheduler_job.py:633} INFO - Processing file /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py for tasks to queue
+[2021-07-12 14:58:33,711] {logging_mixin.py:104} INFO - [2021-07-12 14:58:33,711] {dagbag.py:496} INFO - Filling up the DagBag from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 14:58:34,167] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['spotify_dag']) retrieved from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 14:58:34,210] {logging_mixin.py:104} INFO - [2021-07-12 14:58:34,210] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-12 14:58:34,219] {logging_mixin.py:104} INFO - [2021-07-12 14:58:34,219] {dag.py:2306} INFO - Setting next_dagrun for spotify_dag to 2021-06-17T00:00:00+00:00
+[2021-07-12 14:58:34,230] {scheduler_job.py:190} INFO - Processing /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py took 0.521 seconds
+[2021-07-12 14:59:20,192] {scheduler_job.py:182} INFO - Started process (PID=71509) to work on /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 14:59:20,193] {scheduler_job.py:633} INFO - Processing file /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py for tasks to queue
+[2021-07-12 14:59:20,193] {logging_mixin.py:104} INFO - [2021-07-12 14:59:20,193] {dagbag.py:496} INFO - Filling up the DagBag from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 14:59:20,661] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['spotify_dag']) retrieved from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 14:59:20,710] {logging_mixin.py:104} INFO - [2021-07-12 14:59:20,710] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-12 14:59:20,718] {logging_mixin.py:104} INFO - [2021-07-12 14:59:20,718] {dag.py:2306} INFO - Setting next_dagrun for spotify_dag to 2021-06-17T00:00:00+00:00
+[2021-07-12 14:59:20,729] {scheduler_job.py:190} INFO - Processing /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py took 0.538 seconds
+[2021-07-12 15:00:04,214] {scheduler_job.py:182} INFO - Started process (PID=71547) to work on /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:00:04,215] {scheduler_job.py:633} INFO - Processing file /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py for tasks to queue
+[2021-07-12 15:00:04,216] {logging_mixin.py:104} INFO - [2021-07-12 15:00:04,215] {dagbag.py:496} INFO - Filling up the DagBag from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:00:04,680] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['spotify_dag']) retrieved from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:00:04,726] {logging_mixin.py:104} INFO - [2021-07-12 15:00:04,725] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-12 15:00:04,736] {logging_mixin.py:104} INFO - [2021-07-12 15:00:04,736] {dag.py:2306} INFO - Setting next_dagrun for spotify_dag to 2021-06-17T00:00:00+00:00
+[2021-07-12 15:00:04,747] {scheduler_job.py:190} INFO - Processing /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py took 0.534 seconds
+[2021-07-12 15:00:50,530] {scheduler_job.py:182} INFO - Started process (PID=71585) to work on /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:00:50,530] {scheduler_job.py:633} INFO - Processing file /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py for tasks to queue
+[2021-07-12 15:00:50,531] {logging_mixin.py:104} INFO - [2021-07-12 15:00:50,531] {dagbag.py:496} INFO - Filling up the DagBag from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:00:50,999] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['spotify_dag']) retrieved from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:00:51,042] {logging_mixin.py:104} INFO - [2021-07-12 15:00:51,042] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-12 15:00:51,054] {logging_mixin.py:104} INFO - [2021-07-12 15:00:51,053] {dag.py:2306} INFO - Setting next_dagrun for spotify_dag to 2021-06-17T00:00:00+00:00
+[2021-07-12 15:00:51,067] {scheduler_job.py:190} INFO - Processing /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py took 0.538 seconds
+[2021-07-12 15:01:34,543] {scheduler_job.py:182} INFO - Started process (PID=71624) to work on /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:01:34,544] {scheduler_job.py:633} INFO - Processing file /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py for tasks to queue
+[2021-07-12 15:01:34,544] {logging_mixin.py:104} INFO - [2021-07-12 15:01:34,544] {dagbag.py:496} INFO - Filling up the DagBag from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:01:35,023] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['spotify_dag']) retrieved from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:01:35,067] {logging_mixin.py:104} INFO - [2021-07-12 15:01:35,067] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-12 15:01:35,077] {logging_mixin.py:104} INFO - [2021-07-12 15:01:35,077] {dag.py:2306} INFO - Setting next_dagrun for spotify_dag to 2021-06-17T00:00:00+00:00
+[2021-07-12 15:01:35,089] {scheduler_job.py:190} INFO - Processing /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py took 0.546 seconds
+[2021-07-12 15:02:17,933] {scheduler_job.py:182} INFO - Started process (PID=71660) to work on /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:02:17,934] {scheduler_job.py:633} INFO - Processing file /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py for tasks to queue
+[2021-07-12 15:02:17,935] {logging_mixin.py:104} INFO - [2021-07-12 15:02:17,935] {dagbag.py:496} INFO - Filling up the DagBag from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:02:18,410] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['spotify_dag']) retrieved from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:02:18,452] {logging_mixin.py:104} INFO - [2021-07-12 15:02:18,452] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-12 15:02:18,461] {logging_mixin.py:104} INFO - [2021-07-12 15:02:18,461] {dag.py:2306} INFO - Setting next_dagrun for spotify_dag to 2021-06-17T00:00:00+00:00
+[2021-07-12 15:02:18,473] {scheduler_job.py:190} INFO - Processing /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py took 0.541 seconds
+[2021-07-12 15:03:03,325] {scheduler_job.py:182} INFO - Started process (PID=71698) to work on /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:03:03,325] {scheduler_job.py:633} INFO - Processing file /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py for tasks to queue
+[2021-07-12 15:03:03,326] {logging_mixin.py:104} INFO - [2021-07-12 15:03:03,326] {dagbag.py:496} INFO - Filling up the DagBag from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:03:03,823] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['spotify_dag']) retrieved from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:03:03,865] {logging_mixin.py:104} INFO - [2021-07-12 15:03:03,865] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-12 15:03:03,877] {logging_mixin.py:104} INFO - [2021-07-12 15:03:03,877] {dag.py:2306} INFO - Setting next_dagrun for spotify_dag to 2021-06-17T00:00:00+00:00
+[2021-07-12 15:03:03,886] {scheduler_job.py:190} INFO - Processing /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py took 0.562 seconds
+[2021-07-12 15:03:49,653] {scheduler_job.py:182} INFO - Started process (PID=71736) to work on /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:03:49,653] {scheduler_job.py:633} INFO - Processing file /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py for tasks to queue
+[2021-07-12 15:03:49,654] {logging_mixin.py:104} INFO - [2021-07-12 15:03:49,653] {dagbag.py:496} INFO - Filling up the DagBag from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:03:50,130] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['spotify_dag']) retrieved from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:03:50,177] {logging_mixin.py:104} INFO - [2021-07-12 15:03:50,177] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-12 15:03:50,188] {logging_mixin.py:104} INFO - [2021-07-12 15:03:50,188] {dag.py:2306} INFO - Setting next_dagrun for spotify_dag to 2021-06-17T00:00:00+00:00
+[2021-07-12 15:03:50,200] {scheduler_job.py:190} INFO - Processing /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py took 0.548 seconds
+[2021-07-12 15:04:33,875] {scheduler_job.py:182} INFO - Started process (PID=71775) to work on /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:04:33,875] {scheduler_job.py:633} INFO - Processing file /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py for tasks to queue
+[2021-07-12 15:04:33,876] {logging_mixin.py:104} INFO - [2021-07-12 15:04:33,876] {dagbag.py:496} INFO - Filling up the DagBag from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:04:34,344] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['spotify_dag']) retrieved from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:04:34,387] {logging_mixin.py:104} INFO - [2021-07-12 15:04:34,386] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-12 15:04:34,395] {logging_mixin.py:104} INFO - [2021-07-12 15:04:34,394] {dag.py:2306} INFO - Setting next_dagrun for spotify_dag to 2021-06-17T00:00:00+00:00
+[2021-07-12 15:04:34,407] {scheduler_job.py:190} INFO - Processing /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py took 0.533 seconds
+[2021-07-12 15:05:17,494] {scheduler_job.py:182} INFO - Started process (PID=71811) to work on /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:05:17,495] {scheduler_job.py:633} INFO - Processing file /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py for tasks to queue
+[2021-07-12 15:05:17,495] {logging_mixin.py:104} INFO - [2021-07-12 15:05:17,495] {dagbag.py:496} INFO - Filling up the DagBag from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:05:17,970] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['spotify_dag']) retrieved from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:05:18,014] {logging_mixin.py:104} INFO - [2021-07-12 15:05:18,014] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-12 15:05:18,026] {logging_mixin.py:104} INFO - [2021-07-12 15:05:18,026] {dag.py:2306} INFO - Setting next_dagrun for spotify_dag to 2021-06-17T00:00:00+00:00
+[2021-07-12 15:05:18,038] {scheduler_job.py:190} INFO - Processing /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py took 0.544 seconds
+[2021-07-12 15:06:02,471] {scheduler_job.py:182} INFO - Started process (PID=71850) to work on /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:06:02,472] {scheduler_job.py:633} INFO - Processing file /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py for tasks to queue
+[2021-07-12 15:06:02,472] {logging_mixin.py:104} INFO - [2021-07-12 15:06:02,472] {dagbag.py:496} INFO - Filling up the DagBag from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:06:02,937] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['spotify_dag']) retrieved from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:06:02,977] {logging_mixin.py:104} INFO - [2021-07-12 15:06:02,977] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-12 15:06:02,989] {logging_mixin.py:104} INFO - [2021-07-12 15:06:02,988] {dag.py:2306} INFO - Setting next_dagrun for spotify_dag to 2021-06-17T00:00:00+00:00
+[2021-07-12 15:06:03,002] {scheduler_job.py:190} INFO - Processing /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py took 0.532 seconds
+[2021-07-12 15:06:51,287] {scheduler_job.py:182} INFO - Started process (PID=71891) to work on /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:06:51,287] {scheduler_job.py:633} INFO - Processing file /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py for tasks to queue
+[2021-07-12 15:06:51,288] {logging_mixin.py:104} INFO - [2021-07-12 15:06:51,288] {dagbag.py:496} INFO - Filling up the DagBag from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:06:51,764] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['spotify_dag']) retrieved from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:06:51,809] {logging_mixin.py:104} INFO - [2021-07-12 15:06:51,809] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-12 15:06:51,819] {logging_mixin.py:104} INFO - [2021-07-12 15:06:51,819] {dag.py:2306} INFO - Setting next_dagrun for spotify_dag to 2021-06-17T00:00:00+00:00
+[2021-07-12 15:06:51,832] {scheduler_job.py:190} INFO - Processing /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py took 0.546 seconds
+[2021-07-12 15:07:40,042] {scheduler_job.py:182} INFO - Started process (PID=71932) to work on /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:07:40,043] {scheduler_job.py:633} INFO - Processing file /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py for tasks to queue
+[2021-07-12 15:07:40,044] {logging_mixin.py:104} INFO - [2021-07-12 15:07:40,044] {dagbag.py:496} INFO - Filling up the DagBag from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:07:40,517] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['spotify_dag']) retrieved from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:07:40,559] {logging_mixin.py:104} INFO - [2021-07-12 15:07:40,559] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-12 15:07:40,573] {logging_mixin.py:104} INFO - [2021-07-12 15:07:40,573] {dag.py:2306} INFO - Setting next_dagrun for spotify_dag to 2021-06-17T00:00:00+00:00
+[2021-07-12 15:07:40,586] {scheduler_job.py:190} INFO - Processing /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py took 0.545 seconds
+[2021-07-12 15:08:26,439] {scheduler_job.py:182} INFO - Started process (PID=71970) to work on /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:08:26,440] {scheduler_job.py:633} INFO - Processing file /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py for tasks to queue
+[2021-07-12 15:08:26,440] {logging_mixin.py:104} INFO - [2021-07-12 15:08:26,440] {dagbag.py:496} INFO - Filling up the DagBag from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:08:26,909] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['spotify_dag']) retrieved from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:08:26,951] {logging_mixin.py:104} INFO - [2021-07-12 15:08:26,951] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-12 15:08:26,960] {logging_mixin.py:104} INFO - [2021-07-12 15:08:26,960] {dag.py:2306} INFO - Setting next_dagrun for spotify_dag to 2021-06-17T00:00:00+00:00
+[2021-07-12 15:08:26,974] {scheduler_job.py:190} INFO - Processing /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py took 0.535 seconds
+[2021-07-12 15:09:12,674] {scheduler_job.py:182} INFO - Started process (PID=72008) to work on /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:09:12,675] {scheduler_job.py:633} INFO - Processing file /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py for tasks to queue
+[2021-07-12 15:09:12,675] {logging_mixin.py:104} INFO - [2021-07-12 15:09:12,675] {dagbag.py:496} INFO - Filling up the DagBag from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:09:13,139] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['spotify_dag']) retrieved from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:09:13,184] {logging_mixin.py:104} INFO - [2021-07-12 15:09:13,184] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-12 15:09:13,193] {logging_mixin.py:104} INFO - [2021-07-12 15:09:13,192] {dag.py:2306} INFO - Setting next_dagrun for spotify_dag to 2021-06-17T00:00:00+00:00
+[2021-07-12 15:09:13,204] {scheduler_job.py:190} INFO - Processing /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py took 0.531 seconds
+[2021-07-12 15:09:59,094] {scheduler_job.py:182} INFO - Started process (PID=72053) to work on /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:09:59,094] {scheduler_job.py:633} INFO - Processing file /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py for tasks to queue
+[2021-07-12 15:09:59,095] {logging_mixin.py:104} INFO - [2021-07-12 15:09:59,095] {dagbag.py:496} INFO - Filling up the DagBag from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:09:59,572] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['spotify_dag']) retrieved from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:09:59,619] {logging_mixin.py:104} INFO - [2021-07-12 15:09:59,618] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-12 15:09:59,629] {logging_mixin.py:104} INFO - [2021-07-12 15:09:59,629] {dag.py:2306} INFO - Setting next_dagrun for spotify_dag to 2021-06-17T00:00:00+00:00
+[2021-07-12 15:09:59,640] {scheduler_job.py:190} INFO - Processing /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py took 0.547 seconds
+[2021-07-12 15:10:45,912] {scheduler_job.py:182} INFO - Started process (PID=72091) to work on /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:10:45,913] {scheduler_job.py:633} INFO - Processing file /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py for tasks to queue
+[2021-07-12 15:10:45,913] {logging_mixin.py:104} INFO - [2021-07-12 15:10:45,913] {dagbag.py:496} INFO - Filling up the DagBag from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:10:46,384] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['spotify_dag']) retrieved from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:10:46,428] {logging_mixin.py:104} INFO - [2021-07-12 15:10:46,428] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-12 15:10:46,437] {logging_mixin.py:104} INFO - [2021-07-12 15:10:46,437] {dag.py:2306} INFO - Setting next_dagrun for spotify_dag to 2021-06-17T00:00:00+00:00
+[2021-07-12 15:10:46,449] {scheduler_job.py:190} INFO - Processing /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py took 0.538 seconds
+[2021-07-12 15:11:31,105] {scheduler_job.py:182} INFO - Started process (PID=72129) to work on /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:11:31,105] {scheduler_job.py:633} INFO - Processing file /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py for tasks to queue
+[2021-07-12 15:11:31,105] {logging_mixin.py:104} INFO - [2021-07-12 15:11:31,105] {dagbag.py:496} INFO - Filling up the DagBag from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:11:31,579] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['spotify_dag']) retrieved from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:11:31,623] {logging_mixin.py:104} INFO - [2021-07-12 15:11:31,623] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-12 15:11:31,635] {logging_mixin.py:104} INFO - [2021-07-12 15:11:31,635] {dag.py:2306} INFO - Setting next_dagrun for spotify_dag to 2021-06-17T00:00:00+00:00
+[2021-07-12 15:11:31,646] {scheduler_job.py:190} INFO - Processing /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py took 0.542 seconds
+[2021-07-12 15:12:15,369] {scheduler_job.py:182} INFO - Started process (PID=72167) to work on /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:12:15,370] {scheduler_job.py:633} INFO - Processing file /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py for tasks to queue
+[2021-07-12 15:12:15,370] {logging_mixin.py:104} INFO - [2021-07-12 15:12:15,370] {dagbag.py:496} INFO - Filling up the DagBag from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:12:15,830] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['spotify_dag']) retrieved from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:12:15,876] {logging_mixin.py:104} INFO - [2021-07-12 15:12:15,876] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-12 15:12:15,886] {logging_mixin.py:104} INFO - [2021-07-12 15:12:15,886] {dag.py:2306} INFO - Setting next_dagrun for spotify_dag to 2021-06-17T00:00:00+00:00
+[2021-07-12 15:12:15,900] {scheduler_job.py:190} INFO - Processing /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py took 0.533 seconds
+[2021-07-12 15:12:58,203] {scheduler_job.py:182} INFO - Started process (PID=72203) to work on /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:12:58,204] {scheduler_job.py:633} INFO - Processing file /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py for tasks to queue
+[2021-07-12 15:12:58,204] {logging_mixin.py:104} INFO - [2021-07-12 15:12:58,204] {dagbag.py:496} INFO - Filling up the DagBag from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:12:58,697] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['spotify_dag']) retrieved from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:12:58,744] {logging_mixin.py:104} INFO - [2021-07-12 15:12:58,744] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-12 15:12:58,753] {logging_mixin.py:104} INFO - [2021-07-12 15:12:58,753] {dag.py:2306} INFO - Setting next_dagrun for spotify_dag to 2021-06-17T00:00:00+00:00
+[2021-07-12 15:12:58,761] {scheduler_job.py:190} INFO - Processing /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py took 0.558 seconds
+[2021-07-12 15:13:43,881] {scheduler_job.py:182} INFO - Started process (PID=72243) to work on /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:13:43,882] {scheduler_job.py:633} INFO - Processing file /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py for tasks to queue
+[2021-07-12 15:13:43,882] {logging_mixin.py:104} INFO - [2021-07-12 15:13:43,882] {dagbag.py:496} INFO - Filling up the DagBag from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:13:44,361] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['spotify_dag']) retrieved from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:13:44,408] {logging_mixin.py:104} INFO - [2021-07-12 15:13:44,407] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-12 15:13:44,420] {logging_mixin.py:104} INFO - [2021-07-12 15:13:44,419] {dag.py:2306} INFO - Setting next_dagrun for spotify_dag to 2021-06-17T00:00:00+00:00
+[2021-07-12 15:13:44,433] {scheduler_job.py:190} INFO - Processing /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py took 0.553 seconds
+[2021-07-12 15:14:29,124] {scheduler_job.py:182} INFO - Started process (PID=72286) to work on /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:14:29,125] {scheduler_job.py:633} INFO - Processing file /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py for tasks to queue
+[2021-07-12 15:14:29,125] {logging_mixin.py:104} INFO - [2021-07-12 15:14:29,125] {dagbag.py:496} INFO - Filling up the DagBag from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:14:29,599] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['spotify_dag']) retrieved from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:14:29,638] {logging_mixin.py:104} INFO - [2021-07-12 15:14:29,638] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-12 15:14:29,648] {logging_mixin.py:104} INFO - [2021-07-12 15:14:29,648] {dag.py:2306} INFO - Setting next_dagrun for spotify_dag to 2021-06-17T00:00:00+00:00
+[2021-07-12 15:14:29,661] {scheduler_job.py:190} INFO - Processing /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py took 0.537 seconds
+[2021-07-12 15:15:14,801] {scheduler_job.py:182} INFO - Started process (PID=72324) to work on /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:15:14,802] {scheduler_job.py:633} INFO - Processing file /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py for tasks to queue
+[2021-07-12 15:15:14,802] {logging_mixin.py:104} INFO - [2021-07-12 15:15:14,802] {dagbag.py:496} INFO - Filling up the DagBag from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:15:15,279] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['spotify_dag']) retrieved from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:15:15,320] {logging_mixin.py:104} INFO - [2021-07-12 15:15:15,320] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-12 15:15:15,331] {logging_mixin.py:104} INFO - [2021-07-12 15:15:15,331] {dag.py:2306} INFO - Setting next_dagrun for spotify_dag to 2021-06-17T00:00:00+00:00
+[2021-07-12 15:15:15,342] {scheduler_job.py:190} INFO - Processing /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py took 0.541 seconds
+[2021-07-12 15:16:00,187] {scheduler_job.py:182} INFO - Started process (PID=72363) to work on /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:16:00,188] {scheduler_job.py:633} INFO - Processing file /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py for tasks to queue
+[2021-07-12 15:16:00,188] {logging_mixin.py:104} INFO - [2021-07-12 15:16:00,188] {dagbag.py:496} INFO - Filling up the DagBag from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:16:00,644] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['spotify_dag']) retrieved from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:16:00,690] {logging_mixin.py:104} INFO - [2021-07-12 15:16:00,690] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-12 15:16:00,699] {logging_mixin.py:104} INFO - [2021-07-12 15:16:00,699] {dag.py:2306} INFO - Setting next_dagrun for spotify_dag to 2021-06-17T00:00:00+00:00
+[2021-07-12 15:16:00,711] {scheduler_job.py:190} INFO - Processing /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py took 0.524 seconds
+[2021-07-12 15:16:44,383] {scheduler_job.py:182} INFO - Started process (PID=72401) to work on /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:16:44,383] {scheduler_job.py:633} INFO - Processing file /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py for tasks to queue
+[2021-07-12 15:16:44,384] {logging_mixin.py:104} INFO - [2021-07-12 15:16:44,384] {dagbag.py:496} INFO - Filling up the DagBag from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:16:44,855] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['spotify_dag']) retrieved from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:16:44,898] {logging_mixin.py:104} INFO - [2021-07-12 15:16:44,898] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-12 15:16:44,909] {logging_mixin.py:104} INFO - [2021-07-12 15:16:44,909] {dag.py:2306} INFO - Setting next_dagrun for spotify_dag to 2021-06-17T00:00:00+00:00
+[2021-07-12 15:16:44,923] {scheduler_job.py:190} INFO - Processing /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py took 0.541 seconds
+[2021-07-12 15:17:27,106] {scheduler_job.py:182} INFO - Started process (PID=72438) to work on /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:17:27,106] {scheduler_job.py:633} INFO - Processing file /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py for tasks to queue
+[2021-07-12 15:17:27,107] {logging_mixin.py:104} INFO - [2021-07-12 15:17:27,107] {dagbag.py:496} INFO - Filling up the DagBag from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:17:27,586] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['spotify_dag']) retrieved from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:17:27,629] {logging_mixin.py:104} INFO - [2021-07-12 15:17:27,629] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-12 15:17:27,640] {logging_mixin.py:104} INFO - [2021-07-12 15:17:27,640] {dag.py:2306} INFO - Setting next_dagrun for spotify_dag to 2021-06-17T00:00:00+00:00
+[2021-07-12 15:17:27,651] {scheduler_job.py:190} INFO - Processing /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py took 0.546 seconds
+[2021-07-12 15:18:10,832] {scheduler_job.py:182} INFO - Started process (PID=72477) to work on /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:18:10,833] {scheduler_job.py:633} INFO - Processing file /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py for tasks to queue
+[2021-07-12 15:18:10,833] {logging_mixin.py:104} INFO - [2021-07-12 15:18:10,833] {dagbag.py:496} INFO - Filling up the DagBag from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:18:11,328] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['spotify_dag']) retrieved from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:18:11,374] {logging_mixin.py:104} INFO - [2021-07-12 15:18:11,374] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-12 15:18:11,383] {logging_mixin.py:104} INFO - [2021-07-12 15:18:11,383] {dag.py:2306} INFO - Setting next_dagrun for spotify_dag to 2021-06-17T00:00:00+00:00
+[2021-07-12 15:18:11,392] {scheduler_job.py:190} INFO - Processing /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py took 0.561 seconds
+[2021-07-12 15:18:53,631] {scheduler_job.py:182} INFO - Started process (PID=72513) to work on /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:18:53,632] {scheduler_job.py:633} INFO - Processing file /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py for tasks to queue
+[2021-07-12 15:18:53,633] {logging_mixin.py:104} INFO - [2021-07-12 15:18:53,633] {dagbag.py:496} INFO - Filling up the DagBag from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:18:54,101] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['spotify_dag']) retrieved from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:18:54,147] {logging_mixin.py:104} INFO - [2021-07-12 15:18:54,147] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-12 15:18:54,157] {logging_mixin.py:104} INFO - [2021-07-12 15:18:54,157] {dag.py:2306} INFO - Setting next_dagrun for spotify_dag to 2021-06-17T00:00:00+00:00
+[2021-07-12 15:18:54,169] {scheduler_job.py:190} INFO - Processing /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py took 0.539 seconds
+[2021-07-12 15:19:39,278] {scheduler_job.py:182} INFO - Started process (PID=72554) to work on /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:19:39,278] {scheduler_job.py:633} INFO - Processing file /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py for tasks to queue
+[2021-07-12 15:19:39,279] {logging_mixin.py:104} INFO - [2021-07-12 15:19:39,279] {dagbag.py:496} INFO - Filling up the DagBag from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:19:39,758] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['spotify_dag']) retrieved from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:19:39,804] {logging_mixin.py:104} INFO - [2021-07-12 15:19:39,803] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-12 15:19:39,813] {logging_mixin.py:104} INFO - [2021-07-12 15:19:39,813] {dag.py:2306} INFO - Setting next_dagrun for spotify_dag to 2021-06-17T00:00:00+00:00
+[2021-07-12 15:19:39,822] {scheduler_job.py:190} INFO - Processing /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py took 0.545 seconds
+[2021-07-12 15:20:24,623] {scheduler_job.py:182} INFO - Started process (PID=72593) to work on /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:20:24,624] {scheduler_job.py:633} INFO - Processing file /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py for tasks to queue
+[2021-07-12 15:20:24,625] {logging_mixin.py:104} INFO - [2021-07-12 15:20:24,625] {dagbag.py:496} INFO - Filling up the DagBag from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:20:25,103] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['spotify_dag']) retrieved from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:20:25,149] {logging_mixin.py:104} INFO - [2021-07-12 15:20:25,148] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-12 15:20:25,159] {logging_mixin.py:104} INFO - [2021-07-12 15:20:25,159] {dag.py:2306} INFO - Setting next_dagrun for spotify_dag to 2021-06-17T00:00:00+00:00
+[2021-07-12 15:20:25,171] {scheduler_job.py:190} INFO - Processing /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py took 0.548 seconds
+[2021-07-12 15:21:08,471] {scheduler_job.py:182} INFO - Started process (PID=72632) to work on /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:21:08,471] {scheduler_job.py:633} INFO - Processing file /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py for tasks to queue
+[2021-07-12 15:21:08,472] {logging_mixin.py:104} INFO - [2021-07-12 15:21:08,472] {dagbag.py:496} INFO - Filling up the DagBag from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:21:08,945] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['spotify_dag']) retrieved from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:21:08,986] {logging_mixin.py:104} INFO - [2021-07-12 15:21:08,986] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-12 15:21:08,994] {logging_mixin.py:104} INFO - [2021-07-12 15:21:08,994] {dag.py:2306} INFO - Setting next_dagrun for spotify_dag to 2021-06-17T00:00:00+00:00
+[2021-07-12 15:21:09,005] {scheduler_job.py:190} INFO - Processing /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py took 0.535 seconds
+[2021-07-12 15:21:51,189] {scheduler_job.py:182} INFO - Started process (PID=72668) to work on /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:21:51,190] {scheduler_job.py:633} INFO - Processing file /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py for tasks to queue
+[2021-07-12 15:21:51,191] {logging_mixin.py:104} INFO - [2021-07-12 15:21:51,191] {dagbag.py:496} INFO - Filling up the DagBag from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:21:51,649] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['spotify_dag']) retrieved from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:21:51,698] {logging_mixin.py:104} INFO - [2021-07-12 15:21:51,698] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-12 15:21:51,708] {logging_mixin.py:104} INFO - [2021-07-12 15:21:51,707] {dag.py:2306} INFO - Setting next_dagrun for spotify_dag to 2021-06-17T00:00:00+00:00
+[2021-07-12 15:21:51,719] {scheduler_job.py:190} INFO - Processing /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py took 0.531 seconds
+[2021-07-12 15:22:35,522] {scheduler_job.py:182} INFO - Started process (PID=72706) to work on /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:22:35,522] {scheduler_job.py:633} INFO - Processing file /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py for tasks to queue
+[2021-07-12 15:22:35,522] {logging_mixin.py:104} INFO - [2021-07-12 15:22:35,522] {dagbag.py:496} INFO - Filling up the DagBag from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:22:35,989] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['spotify_dag']) retrieved from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:22:36,040] {logging_mixin.py:104} INFO - [2021-07-12 15:22:36,040] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-12 15:22:36,050] {logging_mixin.py:104} INFO - [2021-07-12 15:22:36,050] {dag.py:2306} INFO - Setting next_dagrun for spotify_dag to 2021-06-17T00:00:00+00:00
+[2021-07-12 15:22:36,064] {scheduler_job.py:190} INFO - Processing /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py took 0.543 seconds
+[2021-07-12 15:23:19,322] {scheduler_job.py:182} INFO - Started process (PID=72745) to work on /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:23:19,323] {scheduler_job.py:633} INFO - Processing file /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py for tasks to queue
+[2021-07-12 15:23:19,323] {logging_mixin.py:104} INFO - [2021-07-12 15:23:19,323] {dagbag.py:496} INFO - Filling up the DagBag from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:23:19,782] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['spotify_dag']) retrieved from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:23:19,824] {logging_mixin.py:104} INFO - [2021-07-12 15:23:19,824] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-12 15:23:19,835] {logging_mixin.py:104} INFO - [2021-07-12 15:23:19,835] {dag.py:2306} INFO - Setting next_dagrun for spotify_dag to 2021-06-17T00:00:00+00:00
+[2021-07-12 15:23:19,848] {scheduler_job.py:190} INFO - Processing /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py took 0.527 seconds
+[2021-07-12 15:24:04,252] {scheduler_job.py:182} INFO - Started process (PID=72784) to work on /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:24:04,253] {scheduler_job.py:633} INFO - Processing file /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py for tasks to queue
+[2021-07-12 15:24:04,253] {logging_mixin.py:104} INFO - [2021-07-12 15:24:04,253] {dagbag.py:496} INFO - Filling up the DagBag from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:24:04,724] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['spotify_dag']) retrieved from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:24:04,772] {logging_mixin.py:104} INFO - [2021-07-12 15:24:04,772] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-12 15:24:04,783] {logging_mixin.py:104} INFO - [2021-07-12 15:24:04,783] {dag.py:2306} INFO - Setting next_dagrun for spotify_dag to 2021-06-17T00:00:00+00:00
+[2021-07-12 15:24:04,798] {scheduler_job.py:190} INFO - Processing /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py took 0.546 seconds
+[2021-07-12 15:24:49,318] {scheduler_job.py:182} INFO - Started process (PID=72822) to work on /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:24:49,319] {scheduler_job.py:633} INFO - Processing file /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py for tasks to queue
+[2021-07-12 15:24:49,320] {logging_mixin.py:104} INFO - [2021-07-12 15:24:49,320] {dagbag.py:496} INFO - Filling up the DagBag from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:24:49,776] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['spotify_dag']) retrieved from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:24:49,819] {logging_mixin.py:104} INFO - [2021-07-12 15:24:49,818] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-12 15:24:49,829] {logging_mixin.py:104} INFO - [2021-07-12 15:24:49,829] {dag.py:2306} INFO - Setting next_dagrun for spotify_dag to 2021-06-17T00:00:00+00:00
+[2021-07-12 15:24:49,843] {scheduler_job.py:190} INFO - Processing /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py took 0.527 seconds
+[2021-07-12 15:25:34,449] {scheduler_job.py:182} INFO - Started process (PID=72860) to work on /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:25:34,450] {scheduler_job.py:633} INFO - Processing file /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py for tasks to queue
+[2021-07-12 15:25:34,450] {logging_mixin.py:104} INFO - [2021-07-12 15:25:34,450] {dagbag.py:496} INFO - Filling up the DagBag from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:25:34,919] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['spotify_dag']) retrieved from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:25:34,964] {logging_mixin.py:104} INFO - [2021-07-12 15:25:34,963] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-12 15:25:34,972] {logging_mixin.py:104} INFO - [2021-07-12 15:25:34,972] {dag.py:2306} INFO - Setting next_dagrun for spotify_dag to 2021-06-17T00:00:00+00:00
+[2021-07-12 15:25:34,985] {scheduler_job.py:190} INFO - Processing /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py took 0.536 seconds
+[2021-07-12 15:26:19,953] {scheduler_job.py:182} INFO - Started process (PID=72900) to work on /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:26:19,953] {scheduler_job.py:633} INFO - Processing file /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py for tasks to queue
+[2021-07-12 15:26:19,953] {logging_mixin.py:104} INFO - [2021-07-12 15:26:19,953] {dagbag.py:496} INFO - Filling up the DagBag from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:26:20,432] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['spotify_dag']) retrieved from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:26:20,478] {logging_mixin.py:104} INFO - [2021-07-12 15:26:20,478] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-12 15:26:20,488] {logging_mixin.py:104} INFO - [2021-07-12 15:26:20,488] {dag.py:2306} INFO - Setting next_dagrun for spotify_dag to 2021-06-17T00:00:00+00:00
+[2021-07-12 15:26:20,500] {scheduler_job.py:190} INFO - Processing /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py took 0.549 seconds
+[2021-07-12 15:27:05,333] {scheduler_job.py:182} INFO - Started process (PID=72943) to work on /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:27:05,333] {scheduler_job.py:633} INFO - Processing file /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py for tasks to queue
+[2021-07-12 15:27:05,334] {logging_mixin.py:104} INFO - [2021-07-12 15:27:05,334] {dagbag.py:496} INFO - Filling up the DagBag from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:27:05,840] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['spotify_dag']) retrieved from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:27:05,882] {logging_mixin.py:104} INFO - [2021-07-12 15:27:05,882] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-12 15:27:05,893] {logging_mixin.py:104} INFO - [2021-07-12 15:27:05,892] {dag.py:2306} INFO - Setting next_dagrun for spotify_dag to 2021-06-17T00:00:00+00:00
+[2021-07-12 15:27:05,904] {scheduler_job.py:190} INFO - Processing /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py took 0.572 seconds
+[2021-07-12 15:27:50,832] {scheduler_job.py:182} INFO - Started process (PID=72982) to work on /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:27:50,832] {scheduler_job.py:633} INFO - Processing file /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py for tasks to queue
+[2021-07-12 15:27:50,833] {logging_mixin.py:104} INFO - [2021-07-12 15:27:50,833] {dagbag.py:496} INFO - Filling up the DagBag from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:27:51,293] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['spotify_dag']) retrieved from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:27:51,340] {logging_mixin.py:104} INFO - [2021-07-12 15:27:51,339] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-12 15:27:51,350] {logging_mixin.py:104} INFO - [2021-07-12 15:27:51,350] {dag.py:2306} INFO - Setting next_dagrun for spotify_dag to 2021-06-17T00:00:00+00:00
+[2021-07-12 15:27:51,362] {scheduler_job.py:190} INFO - Processing /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py took 0.531 seconds
+[2021-07-12 15:28:36,846] {scheduler_job.py:182} INFO - Started process (PID=73021) to work on /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:28:36,847] {scheduler_job.py:633} INFO - Processing file /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py for tasks to queue
+[2021-07-12 15:28:36,847] {logging_mixin.py:104} INFO - [2021-07-12 15:28:36,847] {dagbag.py:496} INFO - Filling up the DagBag from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:28:37,322] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['spotify_dag']) retrieved from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:28:37,366] {logging_mixin.py:104} INFO - [2021-07-12 15:28:37,366] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-12 15:28:37,377] {logging_mixin.py:104} INFO - [2021-07-12 15:28:37,377] {dag.py:2306} INFO - Setting next_dagrun for spotify_dag to 2021-06-17T00:00:00+00:00
+[2021-07-12 15:28:37,391] {scheduler_job.py:190} INFO - Processing /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py took 0.546 seconds
+[2021-07-12 15:29:22,633] {scheduler_job.py:182} INFO - Started process (PID=73065) to work on /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:29:22,633] {scheduler_job.py:633} INFO - Processing file /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py for tasks to queue
+[2021-07-12 15:29:22,634] {logging_mixin.py:104} INFO - [2021-07-12 15:29:22,633] {dagbag.py:496} INFO - Filling up the DagBag from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:29:23,047] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['spotify_dag']) retrieved from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:29:23,086] {logging_mixin.py:104} INFO - [2021-07-12 15:29:23,085] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-12 15:29:23,095] {logging_mixin.py:104} INFO - [2021-07-12 15:29:23,094] {dag.py:2306} INFO - Setting next_dagrun for spotify_dag to 2021-06-17T00:00:00+00:00
+[2021-07-12 15:29:23,107] {scheduler_job.py:190} INFO - Processing /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py took 0.475 seconds
+[2021-07-12 15:30:04,136] {scheduler_job.py:182} INFO - Started process (PID=73104) to work on /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:30:04,137] {scheduler_job.py:633} INFO - Processing file /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py for tasks to queue
+[2021-07-12 15:30:04,137] {logging_mixin.py:104} INFO - [2021-07-12 15:30:04,137] {dagbag.py:496} INFO - Filling up the DagBag from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:30:04,560] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['spotify_dag']) retrieved from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:30:04,599] {logging_mixin.py:104} INFO - [2021-07-12 15:30:04,599] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-12 15:30:04,607] {logging_mixin.py:104} INFO - [2021-07-12 15:30:04,607] {dag.py:2306} INFO - Setting next_dagrun for spotify_dag to 2021-06-17T00:00:00+00:00
+[2021-07-12 15:30:04,618] {scheduler_job.py:190} INFO - Processing /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py took 0.482 seconds
+[2021-07-12 15:30:43,454] {scheduler_job.py:182} INFO - Started process (PID=73141) to work on /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:30:43,454] {scheduler_job.py:633} INFO - Processing file /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py for tasks to queue
+[2021-07-12 15:30:43,455] {logging_mixin.py:104} INFO - [2021-07-12 15:30:43,455] {dagbag.py:496} INFO - Filling up the DagBag from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:30:43,879] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['spotify_dag']) retrieved from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:30:43,914] {logging_mixin.py:104} INFO - [2021-07-12 15:30:43,914] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-12 15:30:43,922] {logging_mixin.py:104} INFO - [2021-07-12 15:30:43,922] {dag.py:2306} INFO - Setting next_dagrun for spotify_dag to 2021-06-17T00:00:00+00:00
+[2021-07-12 15:30:43,934] {scheduler_job.py:190} INFO - Processing /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py took 0.481 seconds
+[2021-07-12 15:31:22,158] {scheduler_job.py:182} INFO - Started process (PID=73177) to work on /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:31:22,159] {scheduler_job.py:633} INFO - Processing file /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py for tasks to queue
+[2021-07-12 15:31:22,159] {logging_mixin.py:104} INFO - [2021-07-12 15:31:22,159] {dagbag.py:496} INFO - Filling up the DagBag from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:31:22,584] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['spotify_dag']) retrieved from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:31:22,624] {logging_mixin.py:104} INFO - [2021-07-12 15:31:22,624] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-12 15:31:22,634] {logging_mixin.py:104} INFO - [2021-07-12 15:31:22,634] {dag.py:2306} INFO - Setting next_dagrun for spotify_dag to 2021-06-17T00:00:00+00:00
+[2021-07-12 15:31:22,647] {scheduler_job.py:190} INFO - Processing /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py took 0.489 seconds
+[2021-07-12 15:32:01,051] {scheduler_job.py:182} INFO - Started process (PID=73213) to work on /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:32:01,052] {scheduler_job.py:633} INFO - Processing file /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py for tasks to queue
+[2021-07-12 15:32:01,052] {logging_mixin.py:104} INFO - [2021-07-12 15:32:01,052] {dagbag.py:496} INFO - Filling up the DagBag from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:32:01,466] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['spotify_dag']) retrieved from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:32:01,503] {logging_mixin.py:104} INFO - [2021-07-12 15:32:01,503] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-12 15:32:01,512] {logging_mixin.py:104} INFO - [2021-07-12 15:32:01,512] {dag.py:2306} INFO - Setting next_dagrun for spotify_dag to 2021-06-17T00:00:00+00:00
+[2021-07-12 15:32:01,523] {scheduler_job.py:190} INFO - Processing /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py took 0.472 seconds
+[2021-07-12 15:32:39,227] {scheduler_job.py:182} INFO - Started process (PID=73250) to work on /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:32:39,228] {scheduler_job.py:633} INFO - Processing file /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py for tasks to queue
+[2021-07-12 15:32:39,228] {logging_mixin.py:104} INFO - [2021-07-12 15:32:39,228] {dagbag.py:496} INFO - Filling up the DagBag from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:32:39,649] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['spotify_dag']) retrieved from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:32:39,687] {logging_mixin.py:104} INFO - [2021-07-12 15:32:39,687] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-12 15:32:39,695] {logging_mixin.py:104} INFO - [2021-07-12 15:32:39,695] {dag.py:2306} INFO - Setting next_dagrun for spotify_dag to 2021-06-17T00:00:00+00:00
+[2021-07-12 15:32:39,705] {scheduler_job.py:190} INFO - Processing /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py took 0.479 seconds
+[2021-07-12 15:33:16,845] {scheduler_job.py:182} INFO - Started process (PID=73286) to work on /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:33:16,845] {scheduler_job.py:633} INFO - Processing file /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py for tasks to queue
+[2021-07-12 15:33:16,846] {logging_mixin.py:104} INFO - [2021-07-12 15:33:16,846] {dagbag.py:496} INFO - Filling up the DagBag from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:33:17,357] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['spotify_dag']) retrieved from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:33:17,397] {logging_mixin.py:104} INFO - [2021-07-12 15:33:17,396] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-12 15:33:17,405] {logging_mixin.py:104} INFO - [2021-07-12 15:33:17,405] {dag.py:2306} INFO - Setting next_dagrun for spotify_dag to 2021-06-17T00:00:00+00:00
+[2021-07-12 15:33:17,419] {scheduler_job.py:190} INFO - Processing /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py took 0.575 seconds
+[2021-07-12 15:33:56,169] {scheduler_job.py:182} INFO - Started process (PID=73323) to work on /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:33:56,170] {scheduler_job.py:633} INFO - Processing file /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py for tasks to queue
+[2021-07-12 15:33:56,170] {logging_mixin.py:104} INFO - [2021-07-12 15:33:56,170] {dagbag.py:496} INFO - Filling up the DagBag from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:33:56,584] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['spotify_dag']) retrieved from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:33:56,622] {logging_mixin.py:104} INFO - [2021-07-12 15:33:56,621] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-12 15:33:56,629] {logging_mixin.py:104} INFO - [2021-07-12 15:33:56,629] {dag.py:2306} INFO - Setting next_dagrun for spotify_dag to 2021-06-17T00:00:00+00:00
+[2021-07-12 15:33:56,642] {scheduler_job.py:190} INFO - Processing /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py took 0.473 seconds
+[2021-07-12 15:34:35,481] {scheduler_job.py:182} INFO - Started process (PID=73359) to work on /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:34:35,481] {scheduler_job.py:633} INFO - Processing file /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py for tasks to queue
+[2021-07-12 15:34:35,481] {logging_mixin.py:104} INFO - [2021-07-12 15:34:35,481] {dagbag.py:496} INFO - Filling up the DagBag from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:34:35,900] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['spotify_dag']) retrieved from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:34:35,941] {logging_mixin.py:104} INFO - [2021-07-12 15:34:35,940] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-12 15:34:35,949] {logging_mixin.py:104} INFO - [2021-07-12 15:34:35,949] {dag.py:2306} INFO - Setting next_dagrun for spotify_dag to 2021-06-17T00:00:00+00:00
+[2021-07-12 15:34:35,959] {scheduler_job.py:190} INFO - Processing /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py took 0.479 seconds
+[2021-07-12 15:35:14,360] {scheduler_job.py:182} INFO - Started process (PID=73395) to work on /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:35:14,361] {scheduler_job.py:633} INFO - Processing file /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py for tasks to queue
+[2021-07-12 15:35:14,361] {logging_mixin.py:104} INFO - [2021-07-12 15:35:14,361] {dagbag.py:496} INFO - Filling up the DagBag from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:35:14,767] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['spotify_dag']) retrieved from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:35:14,809] {logging_mixin.py:104} INFO - [2021-07-12 15:35:14,808] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-12 15:35:14,817] {logging_mixin.py:104} INFO - [2021-07-12 15:35:14,817] {dag.py:2306} INFO - Setting next_dagrun for spotify_dag to 2021-06-17T00:00:00+00:00
+[2021-07-12 15:35:14,829] {scheduler_job.py:190} INFO - Processing /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py took 0.470 seconds
+[2021-07-12 15:35:53,123] {scheduler_job.py:182} INFO - Started process (PID=73431) to work on /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:35:53,123] {scheduler_job.py:633} INFO - Processing file /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py for tasks to queue
+[2021-07-12 15:35:53,124] {logging_mixin.py:104} INFO - [2021-07-12 15:35:53,124] {dagbag.py:496} INFO - Filling up the DagBag from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:35:53,554] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['spotify_dag']) retrieved from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:35:53,591] {logging_mixin.py:104} INFO - [2021-07-12 15:35:53,590] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-12 15:35:53,600] {logging_mixin.py:104} INFO - [2021-07-12 15:35:53,600] {dag.py:2306} INFO - Setting next_dagrun for spotify_dag to 2021-06-17T00:00:00+00:00
+[2021-07-12 15:35:53,611] {scheduler_job.py:190} INFO - Processing /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py took 0.489 seconds
+[2021-07-12 15:36:31,840] {scheduler_job.py:182} INFO - Started process (PID=73467) to work on /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:36:31,840] {scheduler_job.py:633} INFO - Processing file /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py for tasks to queue
+[2021-07-12 15:36:31,841] {logging_mixin.py:104} INFO - [2021-07-12 15:36:31,841] {dagbag.py:496} INFO - Filling up the DagBag from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:36:32,252] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['spotify_dag']) retrieved from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:36:32,293] {logging_mixin.py:104} INFO - [2021-07-12 15:36:32,293] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-12 15:36:32,302] {logging_mixin.py:104} INFO - [2021-07-12 15:36:32,302] {dag.py:2306} INFO - Setting next_dagrun for spotify_dag to 2021-06-17T00:00:00+00:00
+[2021-07-12 15:36:32,315] {scheduler_job.py:190} INFO - Processing /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py took 0.475 seconds
+[2021-07-12 15:37:10,719] {scheduler_job.py:182} INFO - Started process (PID=73504) to work on /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:37:10,720] {scheduler_job.py:633} INFO - Processing file /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py for tasks to queue
+[2021-07-12 15:37:10,721] {logging_mixin.py:104} INFO - [2021-07-12 15:37:10,721] {dagbag.py:496} INFO - Filling up the DagBag from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:37:11,138] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['spotify_dag']) retrieved from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:37:11,183] {logging_mixin.py:104} INFO - [2021-07-12 15:37:11,182] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-12 15:37:11,191] {logging_mixin.py:104} INFO - [2021-07-12 15:37:11,191] {dag.py:2306} INFO - Setting next_dagrun for spotify_dag to 2021-06-17T00:00:00+00:00
+[2021-07-12 15:37:11,198] {scheduler_job.py:190} INFO - Processing /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py took 0.480 seconds
+[2021-07-12 15:37:49,514] {scheduler_job.py:182} INFO - Started process (PID=73540) to work on /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:37:49,515] {scheduler_job.py:633} INFO - Processing file /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py for tasks to queue
+[2021-07-12 15:37:49,515] {logging_mixin.py:104} INFO - [2021-07-12 15:37:49,515] {dagbag.py:496} INFO - Filling up the DagBag from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:37:49,931] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['spotify_dag']) retrieved from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:37:49,967] {logging_mixin.py:104} INFO - [2021-07-12 15:37:49,967] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-12 15:37:49,975] {logging_mixin.py:104} INFO - [2021-07-12 15:37:49,975] {dag.py:2306} INFO - Setting next_dagrun for spotify_dag to 2021-06-17T00:00:00+00:00
+[2021-07-12 15:37:49,987] {scheduler_job.py:190} INFO - Processing /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py took 0.474 seconds
+[2021-07-12 15:38:28,412] {scheduler_job.py:182} INFO - Started process (PID=73577) to work on /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:38:28,413] {scheduler_job.py:633} INFO - Processing file /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py for tasks to queue
+[2021-07-12 15:38:28,413] {logging_mixin.py:104} INFO - [2021-07-12 15:38:28,413] {dagbag.py:496} INFO - Filling up the DagBag from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:38:28,825] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['spotify_dag']) retrieved from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:38:28,865] {logging_mixin.py:104} INFO - [2021-07-12 15:38:28,865] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-12 15:38:28,873] {logging_mixin.py:104} INFO - [2021-07-12 15:38:28,873] {dag.py:2306} INFO - Setting next_dagrun for spotify_dag to 2021-06-17T00:00:00+00:00
+[2021-07-12 15:38:28,884] {scheduler_job.py:190} INFO - Processing /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py took 0.473 seconds
+[2021-07-12 15:39:06,877] {scheduler_job.py:182} INFO - Started process (PID=73613) to work on /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:39:06,878] {scheduler_job.py:633} INFO - Processing file /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py for tasks to queue
+[2021-07-12 15:39:06,878] {logging_mixin.py:104} INFO - [2021-07-12 15:39:06,878] {dagbag.py:496} INFO - Filling up the DagBag from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:39:07,314] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['spotify_dag']) retrieved from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:39:07,349] {logging_mixin.py:104} INFO - [2021-07-12 15:39:07,349] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-12 15:39:07,358] {logging_mixin.py:104} INFO - [2021-07-12 15:39:07,358] {dag.py:2306} INFO - Setting next_dagrun for spotify_dag to 2021-06-17T00:00:00+00:00
+[2021-07-12 15:39:07,368] {scheduler_job.py:190} INFO - Processing /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py took 0.493 seconds
+[2021-07-12 15:39:45,812] {scheduler_job.py:182} INFO - Started process (PID=73649) to work on /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:39:45,812] {scheduler_job.py:633} INFO - Processing file /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py for tasks to queue
+[2021-07-12 15:39:45,812] {logging_mixin.py:104} INFO - [2021-07-12 15:39:45,812] {dagbag.py:496} INFO - Filling up the DagBag from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:39:46,225] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['spotify_dag']) retrieved from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:39:46,265] {logging_mixin.py:104} INFO - [2021-07-12 15:39:46,265] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-12 15:39:46,273] {logging_mixin.py:104} INFO - [2021-07-12 15:39:46,273] {dag.py:2306} INFO - Setting next_dagrun for spotify_dag to 2021-06-17T00:00:00+00:00
+[2021-07-12 15:39:46,286] {scheduler_job.py:190} INFO - Processing /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py took 0.475 seconds
+[2021-07-12 15:40:24,560] {scheduler_job.py:182} INFO - Started process (PID=73685) to work on /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:40:24,560] {scheduler_job.py:633} INFO - Processing file /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py for tasks to queue
+[2021-07-12 15:40:24,561] {logging_mixin.py:104} INFO - [2021-07-12 15:40:24,561] {dagbag.py:496} INFO - Filling up the DagBag from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:40:24,984] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['spotify_dag']) retrieved from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:40:25,024] {logging_mixin.py:104} INFO - [2021-07-12 15:40:25,024] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-12 15:40:25,032] {logging_mixin.py:104} INFO - [2021-07-12 15:40:25,032] {dag.py:2306} INFO - Setting next_dagrun for spotify_dag to 2021-06-17T00:00:00+00:00
+[2021-07-12 15:40:25,043] {scheduler_job.py:190} INFO - Processing /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py took 0.484 seconds
+[2021-07-12 15:41:03,431] {scheduler_job.py:182} INFO - Started process (PID=73721) to work on /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:41:03,432] {scheduler_job.py:633} INFO - Processing file /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py for tasks to queue
+[2021-07-12 15:41:03,432] {logging_mixin.py:104} INFO - [2021-07-12 15:41:03,432] {dagbag.py:496} INFO - Filling up the DagBag from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:41:03,850] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['spotify_dag']) retrieved from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:41:03,887] {logging_mixin.py:104} INFO - [2021-07-12 15:41:03,886] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-12 15:41:03,894] {logging_mixin.py:104} INFO - [2021-07-12 15:41:03,894] {dag.py:2306} INFO - Setting next_dagrun for spotify_dag to 2021-06-17T00:00:00+00:00
+[2021-07-12 15:41:03,905] {scheduler_job.py:190} INFO - Processing /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py took 0.475 seconds
+[2021-07-12 15:41:42,119] {scheduler_job.py:182} INFO - Started process (PID=73757) to work on /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:41:42,119] {scheduler_job.py:633} INFO - Processing file /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py for tasks to queue
+[2021-07-12 15:41:42,120] {logging_mixin.py:104} INFO - [2021-07-12 15:41:42,120] {dagbag.py:496} INFO - Filling up the DagBag from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:41:42,545] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['spotify_dag']) retrieved from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:41:42,583] {logging_mixin.py:104} INFO - [2021-07-12 15:41:42,583] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-12 15:41:42,594] {logging_mixin.py:104} INFO - [2021-07-12 15:41:42,594] {dag.py:2306} INFO - Setting next_dagrun for spotify_dag to 2021-06-17T00:00:00+00:00
+[2021-07-12 15:41:42,607] {scheduler_job.py:190} INFO - Processing /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py took 0.489 seconds
+[2021-07-12 15:42:20,990] {scheduler_job.py:182} INFO - Started process (PID=73794) to work on /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:42:20,990] {scheduler_job.py:633} INFO - Processing file /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py for tasks to queue
+[2021-07-12 15:42:20,991] {logging_mixin.py:104} INFO - [2021-07-12 15:42:20,991] {dagbag.py:496} INFO - Filling up the DagBag from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:42:21,427] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['spotify_dag']) retrieved from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:42:21,466] {logging_mixin.py:104} INFO - [2021-07-12 15:42:21,466] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-12 15:42:21,475] {logging_mixin.py:104} INFO - [2021-07-12 15:42:21,475] {dag.py:2306} INFO - Setting next_dagrun for spotify_dag to 2021-06-17T00:00:00+00:00
+[2021-07-12 15:42:21,487] {scheduler_job.py:190} INFO - Processing /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py took 0.498 seconds
+[2021-07-12 15:42:59,533] {scheduler_job.py:182} INFO - Started process (PID=73830) to work on /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:42:59,534] {scheduler_job.py:633} INFO - Processing file /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py for tasks to queue
+[2021-07-12 15:42:59,534] {logging_mixin.py:104} INFO - [2021-07-12 15:42:59,534] {dagbag.py:496} INFO - Filling up the DagBag from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:42:59,939] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['spotify_dag']) retrieved from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:42:59,974] {logging_mixin.py:104} INFO - [2021-07-12 15:42:59,974] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-12 15:42:59,983] {logging_mixin.py:104} INFO - [2021-07-12 15:42:59,982] {dag.py:2306} INFO - Setting next_dagrun for spotify_dag to 2021-06-17T00:00:00+00:00
+[2021-07-12 15:42:59,994] {scheduler_job.py:190} INFO - Processing /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py took 0.461 seconds
+[2021-07-12 15:43:38,426] {scheduler_job.py:182} INFO - Started process (PID=73867) to work on /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:43:38,427] {scheduler_job.py:633} INFO - Processing file /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py for tasks to queue
+[2021-07-12 15:43:38,427] {logging_mixin.py:104} INFO - [2021-07-12 15:43:38,427] {dagbag.py:496} INFO - Filling up the DagBag from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:43:38,860] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['spotify_dag']) retrieved from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:43:38,901] {logging_mixin.py:104} INFO - [2021-07-12 15:43:38,900] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-12 15:43:38,909] {logging_mixin.py:104} INFO - [2021-07-12 15:43:38,909] {dag.py:2306} INFO - Setting next_dagrun for spotify_dag to 2021-06-17T00:00:00+00:00
+[2021-07-12 15:43:38,922] {scheduler_job.py:190} INFO - Processing /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py took 0.496 seconds
+[2021-07-12 15:44:17,227] {scheduler_job.py:182} INFO - Started process (PID=73908) to work on /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:44:17,228] {scheduler_job.py:633} INFO - Processing file /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py for tasks to queue
+[2021-07-12 15:44:17,228] {logging_mixin.py:104} INFO - [2021-07-12 15:44:17,228] {dagbag.py:496} INFO - Filling up the DagBag from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:44:17,635] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['spotify_dag']) retrieved from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:44:17,674] {logging_mixin.py:104} INFO - [2021-07-12 15:44:17,674] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-12 15:44:17,683] {logging_mixin.py:104} INFO - [2021-07-12 15:44:17,683] {dag.py:2306} INFO - Setting next_dagrun for spotify_dag to 2021-06-17T00:00:00+00:00
+[2021-07-12 15:44:17,694] {scheduler_job.py:190} INFO - Processing /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py took 0.467 seconds
+[2021-07-12 15:44:56,243] {scheduler_job.py:182} INFO - Started process (PID=73944) to work on /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:44:56,244] {scheduler_job.py:633} INFO - Processing file /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py for tasks to queue
+[2021-07-12 15:44:56,244] {logging_mixin.py:104} INFO - [2021-07-12 15:44:56,244] {dagbag.py:496} INFO - Filling up the DagBag from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:44:56,664] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['spotify_dag']) retrieved from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:44:56,702] {logging_mixin.py:104} INFO - [2021-07-12 15:44:56,702] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-12 15:44:56,710] {logging_mixin.py:104} INFO - [2021-07-12 15:44:56,710] {dag.py:2306} INFO - Setting next_dagrun for spotify_dag to 2021-06-17T00:00:00+00:00
+[2021-07-12 15:44:56,722] {scheduler_job.py:190} INFO - Processing /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py took 0.479 seconds
+[2021-07-12 15:45:35,005] {scheduler_job.py:182} INFO - Started process (PID=73980) to work on /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:45:35,005] {scheduler_job.py:633} INFO - Processing file /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py for tasks to queue
+[2021-07-12 15:45:35,006] {logging_mixin.py:104} INFO - [2021-07-12 15:45:35,006] {dagbag.py:496} INFO - Filling up the DagBag from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:45:35,437] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['spotify_dag']) retrieved from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:45:35,476] {logging_mixin.py:104} INFO - [2021-07-12 15:45:35,476] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-12 15:45:35,486] {logging_mixin.py:104} INFO - [2021-07-12 15:45:35,485] {dag.py:2306} INFO - Setting next_dagrun for spotify_dag to 2021-06-17T00:00:00+00:00
+[2021-07-12 15:45:35,498] {scheduler_job.py:190} INFO - Processing /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py took 0.494 seconds
+[2021-07-12 15:46:13,945] {scheduler_job.py:182} INFO - Started process (PID=74017) to work on /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:46:13,945] {scheduler_job.py:633} INFO - Processing file /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py for tasks to queue
+[2021-07-12 15:46:13,945] {logging_mixin.py:104} INFO - [2021-07-12 15:46:13,945] {dagbag.py:496} INFO - Filling up the DagBag from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:46:14,363] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['spotify_dag']) retrieved from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:46:14,401] {logging_mixin.py:104} INFO - [2021-07-12 15:46:14,401] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-12 15:46:14,410] {logging_mixin.py:104} INFO - [2021-07-12 15:46:14,410] {dag.py:2306} INFO - Setting next_dagrun for spotify_dag to 2021-06-17T00:00:00+00:00
+[2021-07-12 15:46:14,422] {scheduler_job.py:190} INFO - Processing /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py took 0.478 seconds
+[2021-07-12 15:46:51,892] {scheduler_job.py:182} INFO - Started process (PID=74053) to work on /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:46:51,893] {scheduler_job.py:633} INFO - Processing file /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py for tasks to queue
+[2021-07-12 15:46:51,893] {logging_mixin.py:104} INFO - [2021-07-12 15:46:51,893] {dagbag.py:496} INFO - Filling up the DagBag from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:46:52,307] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['spotify_dag']) retrieved from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:46:52,346] {logging_mixin.py:104} INFO - [2021-07-12 15:46:52,346] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-12 15:46:52,355] {logging_mixin.py:104} INFO - [2021-07-12 15:46:52,355] {dag.py:2306} INFO - Setting next_dagrun for spotify_dag to 2021-06-17T00:00:00+00:00
+[2021-07-12 15:46:52,367] {scheduler_job.py:190} INFO - Processing /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py took 0.476 seconds
+[2021-07-12 15:47:28,634] {scheduler_job.py:182} INFO - Started process (PID=74087) to work on /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:47:28,634] {scheduler_job.py:633} INFO - Processing file /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py for tasks to queue
+[2021-07-12 15:47:28,634] {logging_mixin.py:104} INFO - [2021-07-12 15:47:28,634] {dagbag.py:496} INFO - Filling up the DagBag from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:47:29,046] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['spotify_dag']) retrieved from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:47:29,082] {logging_mixin.py:104} INFO - [2021-07-12 15:47:29,082] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-12 15:47:29,090] {logging_mixin.py:104} INFO - [2021-07-12 15:47:29,090] {dag.py:2306} INFO - Setting next_dagrun for spotify_dag to 2021-06-17T00:00:00+00:00
+[2021-07-12 15:47:29,102] {scheduler_job.py:190} INFO - Processing /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py took 0.469 seconds
+[2021-07-12 15:48:07,001] {scheduler_job.py:182} INFO - Started process (PID=74124) to work on /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:48:07,002] {scheduler_job.py:633} INFO - Processing file /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py for tasks to queue
+[2021-07-12 15:48:07,002] {logging_mixin.py:104} INFO - [2021-07-12 15:48:07,002] {dagbag.py:496} INFO - Filling up the DagBag from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:48:07,424] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['spotify_dag']) retrieved from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:48:07,461] {logging_mixin.py:104} INFO - [2021-07-12 15:48:07,461] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-12 15:48:07,470] {logging_mixin.py:104} INFO - [2021-07-12 15:48:07,470] {dag.py:2306} INFO - Setting next_dagrun for spotify_dag to 2021-06-17T00:00:00+00:00
+[2021-07-12 15:48:07,482] {scheduler_job.py:190} INFO - Processing /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py took 0.481 seconds
+[2021-07-12 15:48:45,847] {scheduler_job.py:182} INFO - Started process (PID=74160) to work on /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:48:45,847] {scheduler_job.py:633} INFO - Processing file /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py for tasks to queue
+[2021-07-12 15:48:45,848] {logging_mixin.py:104} INFO - [2021-07-12 15:48:45,848] {dagbag.py:496} INFO - Filling up the DagBag from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:48:46,268] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['spotify_dag']) retrieved from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:48:46,308] {logging_mixin.py:104} INFO - [2021-07-12 15:48:46,308] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-12 15:48:46,316] {logging_mixin.py:104} INFO - [2021-07-12 15:48:46,316] {dag.py:2306} INFO - Setting next_dagrun for spotify_dag to 2021-06-17T00:00:00+00:00
+[2021-07-12 15:48:46,327] {scheduler_job.py:190} INFO - Processing /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py took 0.481 seconds
+[2021-07-12 15:49:24,250] {scheduler_job.py:182} INFO - Started process (PID=74196) to work on /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:49:24,251] {scheduler_job.py:633} INFO - Processing file /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py for tasks to queue
+[2021-07-12 15:49:24,251] {logging_mixin.py:104} INFO - [2021-07-12 15:49:24,251] {dagbag.py:496} INFO - Filling up the DagBag from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:49:24,679] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['spotify_dag']) retrieved from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:49:24,716] {logging_mixin.py:104} INFO - [2021-07-12 15:49:24,716] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-12 15:49:24,725] {logging_mixin.py:104} INFO - [2021-07-12 15:49:24,725] {dag.py:2306} INFO - Setting next_dagrun for spotify_dag to 2021-06-17T00:00:00+00:00
+[2021-07-12 15:49:24,738] {scheduler_job.py:190} INFO - Processing /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py took 0.489 seconds
+[2021-07-12 15:50:03,128] {scheduler_job.py:182} INFO - Started process (PID=74232) to work on /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:50:03,129] {scheduler_job.py:633} INFO - Processing file /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py for tasks to queue
+[2021-07-12 15:50:03,129] {logging_mixin.py:104} INFO - [2021-07-12 15:50:03,129] {dagbag.py:496} INFO - Filling up the DagBag from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:50:03,542] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['spotify_dag']) retrieved from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:50:03,580] {logging_mixin.py:104} INFO - [2021-07-12 15:50:03,580] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-12 15:50:03,588] {logging_mixin.py:104} INFO - [2021-07-12 15:50:03,588] {dag.py:2306} INFO - Setting next_dagrun for spotify_dag to 2021-06-17T00:00:00+00:00
+[2021-07-12 15:50:03,600] {scheduler_job.py:190} INFO - Processing /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py took 0.472 seconds
+[2021-07-12 15:50:41,452] {scheduler_job.py:182} INFO - Started process (PID=74269) to work on /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:50:41,452] {scheduler_job.py:633} INFO - Processing file /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py for tasks to queue
+[2021-07-12 15:50:41,453] {logging_mixin.py:104} INFO - [2021-07-12 15:50:41,453] {dagbag.py:496} INFO - Filling up the DagBag from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:50:41,878] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['spotify_dag']) retrieved from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:50:41,918] {logging_mixin.py:104} INFO - [2021-07-12 15:50:41,918] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-12 15:50:41,926] {logging_mixin.py:104} INFO - [2021-07-12 15:50:41,926] {dag.py:2306} INFO - Setting next_dagrun for spotify_dag to 2021-06-17T00:00:00+00:00
+[2021-07-12 15:50:41,937] {scheduler_job.py:190} INFO - Processing /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py took 0.485 seconds
+[2021-07-12 15:51:18,246] {scheduler_job.py:182} INFO - Started process (PID=74303) to work on /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:51:18,247] {scheduler_job.py:633} INFO - Processing file /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py for tasks to queue
+[2021-07-12 15:51:18,247] {logging_mixin.py:104} INFO - [2021-07-12 15:51:18,247] {dagbag.py:496} INFO - Filling up the DagBag from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:51:18,667] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['spotify_dag']) retrieved from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:51:18,701] {logging_mixin.py:104} INFO - [2021-07-12 15:51:18,701] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-12 15:51:18,710] {logging_mixin.py:104} INFO - [2021-07-12 15:51:18,709] {dag.py:2306} INFO - Setting next_dagrun for spotify_dag to 2021-06-17T00:00:00+00:00
+[2021-07-12 15:51:18,720] {scheduler_job.py:190} INFO - Processing /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py took 0.475 seconds
+[2021-07-12 15:51:57,146] {scheduler_job.py:182} INFO - Started process (PID=74339) to work on /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:51:57,147] {scheduler_job.py:633} INFO - Processing file /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py for tasks to queue
+[2021-07-12 15:51:57,147] {logging_mixin.py:104} INFO - [2021-07-12 15:51:57,147] {dagbag.py:496} INFO - Filling up the DagBag from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:51:57,563] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['spotify_dag']) retrieved from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:51:57,598] {logging_mixin.py:104} INFO - [2021-07-12 15:51:57,598] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-12 15:51:57,606] {logging_mixin.py:104} INFO - [2021-07-12 15:51:57,606] {dag.py:2306} INFO - Setting next_dagrun for spotify_dag to 2021-06-17T00:00:00+00:00
+[2021-07-12 15:51:57,618] {scheduler_job.py:190} INFO - Processing /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py took 0.473 seconds
+[2021-07-12 15:52:35,942] {scheduler_job.py:182} INFO - Started process (PID=74376) to work on /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:52:35,942] {scheduler_job.py:633} INFO - Processing file /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py for tasks to queue
+[2021-07-12 15:52:35,943] {logging_mixin.py:104} INFO - [2021-07-12 15:52:35,943] {dagbag.py:496} INFO - Filling up the DagBag from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:52:36,363] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['spotify_dag']) retrieved from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:52:36,397] {logging_mixin.py:104} INFO - [2021-07-12 15:52:36,397] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-12 15:52:36,405] {logging_mixin.py:104} INFO - [2021-07-12 15:52:36,405] {dag.py:2306} INFO - Setting next_dagrun for spotify_dag to 2021-06-17T00:00:00+00:00
+[2021-07-12 15:52:36,417] {scheduler_job.py:190} INFO - Processing /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py took 0.476 seconds
+[2021-07-12 15:53:14,698] {scheduler_job.py:182} INFO - Started process (PID=74413) to work on /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:53:14,698] {scheduler_job.py:633} INFO - Processing file /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py for tasks to queue
+[2021-07-12 15:53:14,699] {logging_mixin.py:104} INFO - [2021-07-12 15:53:14,698] {dagbag.py:496} INFO - Filling up the DagBag from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:53:15,116] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['spotify_dag']) retrieved from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:53:15,155] {logging_mixin.py:104} INFO - [2021-07-12 15:53:15,155] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-12 15:53:15,164] {logging_mixin.py:104} INFO - [2021-07-12 15:53:15,164] {dag.py:2306} INFO - Setting next_dagrun for spotify_dag to 2021-06-17T00:00:00+00:00
+[2021-07-12 15:53:15,174] {scheduler_job.py:190} INFO - Processing /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py took 0.477 seconds
+[2021-07-12 15:53:53,644] {scheduler_job.py:182} INFO - Started process (PID=74450) to work on /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:53:53,644] {scheduler_job.py:633} INFO - Processing file /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py for tasks to queue
+[2021-07-12 15:53:53,645] {logging_mixin.py:104} INFO - [2021-07-12 15:53:53,645] {dagbag.py:496} INFO - Filling up the DagBag from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:53:54,067] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['spotify_dag']) retrieved from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:53:54,105] {logging_mixin.py:104} INFO - [2021-07-12 15:53:54,104] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-12 15:53:54,113] {logging_mixin.py:104} INFO - [2021-07-12 15:53:54,113] {dag.py:2306} INFO - Setting next_dagrun for spotify_dag to 2021-06-17T00:00:00+00:00
+[2021-07-12 15:53:54,125] {scheduler_job.py:190} INFO - Processing /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py took 0.482 seconds
+[2021-07-12 15:54:33,609] {scheduler_job.py:182} INFO - Started process (PID=74488) to work on /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:54:33,610] {scheduler_job.py:633} INFO - Processing file /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py for tasks to queue
+[2021-07-12 15:54:33,610] {logging_mixin.py:104} INFO - [2021-07-12 15:54:33,610] {dagbag.py:496} INFO - Filling up the DagBag from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:54:34,034] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['spotify_dag']) retrieved from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:54:34,072] {logging_mixin.py:104} INFO - [2021-07-12 15:54:34,072] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-12 15:54:34,080] {logging_mixin.py:104} INFO - [2021-07-12 15:54:34,080] {dag.py:2306} INFO - Setting next_dagrun for spotify_dag to 2021-06-17T00:00:00+00:00
+[2021-07-12 15:54:34,095] {scheduler_job.py:190} INFO - Processing /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py took 0.486 seconds
+[2021-07-12 15:55:15,035] {scheduler_job.py:182} INFO - Started process (PID=74526) to work on /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:55:15,036] {scheduler_job.py:633} INFO - Processing file /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py for tasks to queue
+[2021-07-12 15:55:15,036] {logging_mixin.py:104} INFO - [2021-07-12 15:55:15,036] {dagbag.py:496} INFO - Filling up the DagBag from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:55:15,454] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['spotify_dag']) retrieved from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:55:15,493] {logging_mixin.py:104} INFO - [2021-07-12 15:55:15,493] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-12 15:55:15,503] {logging_mixin.py:104} INFO - [2021-07-12 15:55:15,503] {dag.py:2306} INFO - Setting next_dagrun for spotify_dag to 2021-06-17T00:00:00+00:00
+[2021-07-12 15:55:15,512] {scheduler_job.py:190} INFO - Processing /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py took 0.478 seconds
+[2021-07-12 15:55:54,987] {scheduler_job.py:182} INFO - Started process (PID=74562) to work on /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:55:54,987] {scheduler_job.py:633} INFO - Processing file /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py for tasks to queue
+[2021-07-12 15:55:54,987] {logging_mixin.py:104} INFO - [2021-07-12 15:55:54,987] {dagbag.py:496} INFO - Filling up the DagBag from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:55:55,400] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['spotify_dag']) retrieved from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:55:55,437] {logging_mixin.py:104} INFO - [2021-07-12 15:55:55,436] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-12 15:55:55,445] {logging_mixin.py:104} INFO - [2021-07-12 15:55:55,445] {dag.py:2306} INFO - Setting next_dagrun for spotify_dag to 2021-06-17T00:00:00+00:00
+[2021-07-12 15:55:55,458] {scheduler_job.py:190} INFO - Processing /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py took 0.472 seconds
+[2021-07-12 15:56:34,377] {scheduler_job.py:182} INFO - Started process (PID=74599) to work on /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:56:34,378] {scheduler_job.py:633} INFO - Processing file /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py for tasks to queue
+[2021-07-12 15:56:34,378] {logging_mixin.py:104} INFO - [2021-07-12 15:56:34,378] {dagbag.py:496} INFO - Filling up the DagBag from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:56:34,786] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['spotify_dag']) retrieved from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:56:34,831] {logging_mixin.py:104} INFO - [2021-07-12 15:56:34,831] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-12 15:56:34,839] {logging_mixin.py:104} INFO - [2021-07-12 15:56:34,839] {dag.py:2306} INFO - Setting next_dagrun for spotify_dag to 2021-06-17T00:00:00+00:00
+[2021-07-12 15:56:34,850] {scheduler_job.py:190} INFO - Processing /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py took 0.473 seconds
+[2021-07-12 15:57:14,236] {scheduler_job.py:182} INFO - Started process (PID=74637) to work on /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:57:14,236] {scheduler_job.py:633} INFO - Processing file /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py for tasks to queue
+[2021-07-12 15:57:14,237] {logging_mixin.py:104} INFO - [2021-07-12 15:57:14,237] {dagbag.py:496} INFO - Filling up the DagBag from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:57:14,652] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['spotify_dag']) retrieved from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:57:14,688] {logging_mixin.py:104} INFO - [2021-07-12 15:57:14,688] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-12 15:57:14,696] {logging_mixin.py:104} INFO - [2021-07-12 15:57:14,696] {dag.py:2306} INFO - Setting next_dagrun for spotify_dag to 2021-06-17T00:00:00+00:00
+[2021-07-12 15:57:14,707] {scheduler_job.py:190} INFO - Processing /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py took 0.472 seconds
+[2021-07-12 15:57:55,602] {scheduler_job.py:182} INFO - Started process (PID=74681) to work on /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:57:55,603] {scheduler_job.py:633} INFO - Processing file /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py for tasks to queue
+[2021-07-12 15:57:55,603] {logging_mixin.py:104} INFO - [2021-07-12 15:57:55,603] {dagbag.py:496} INFO - Filling up the DagBag from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:57:56,010] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['spotify_dag']) retrieved from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:57:56,048] {logging_mixin.py:104} INFO - [2021-07-12 15:57:56,048] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-12 15:57:56,056] {logging_mixin.py:104} INFO - [2021-07-12 15:57:56,056] {dag.py:2306} INFO - Setting next_dagrun for spotify_dag to 2021-06-17T00:00:00+00:00
+[2021-07-12 15:57:56,067] {scheduler_job.py:190} INFO - Processing /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py took 0.466 seconds
+[2021-07-12 15:58:34,101] {scheduler_job.py:182} INFO - Started process (PID=74719) to work on /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:58:34,102] {scheduler_job.py:633} INFO - Processing file /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py for tasks to queue
+[2021-07-12 15:58:34,102] {logging_mixin.py:104} INFO - [2021-07-12 15:58:34,102] {dagbag.py:496} INFO - Filling up the DagBag from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:58:34,531] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['spotify_dag']) retrieved from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:58:34,566] {logging_mixin.py:104} INFO - [2021-07-12 15:58:34,565] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-12 15:58:34,576] {logging_mixin.py:104} INFO - [2021-07-12 15:58:34,576] {dag.py:2306} INFO - Setting next_dagrun for spotify_dag to 2021-06-17T00:00:00+00:00
+[2021-07-12 15:58:34,589] {scheduler_job.py:190} INFO - Processing /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py took 0.489 seconds
+[2021-07-12 15:59:14,527] {scheduler_job.py:182} INFO - Started process (PID=74766) to work on /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:59:14,527] {scheduler_job.py:633} INFO - Processing file /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py for tasks to queue
+[2021-07-12 15:59:14,528] {logging_mixin.py:104} INFO - [2021-07-12 15:59:14,528] {dagbag.py:496} INFO - Filling up the DagBag from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:59:15,180] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['spotify_dag']) retrieved from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 15:59:15,220] {logging_mixin.py:104} INFO - [2021-07-12 15:59:15,220] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-12 15:59:15,230] {logging_mixin.py:104} INFO - [2021-07-12 15:59:15,230] {dag.py:2306} INFO - Setting next_dagrun for spotify_dag to 2021-06-17T00:00:00+00:00
+[2021-07-12 15:59:15,237] {scheduler_job.py:190} INFO - Processing /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py took 0.711 seconds
+[2021-07-12 16:00:09,720] {scheduler_job.py:182} INFO - Started process (PID=74828) to work on /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 16:00:09,721] {scheduler_job.py:633} INFO - Processing file /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py for tasks to queue
+[2021-07-12 16:00:09,722] {logging_mixin.py:104} INFO - [2021-07-12 16:00:09,722] {dagbag.py:496} INFO - Filling up the DagBag from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 16:00:10,422] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['spotify_dag']) retrieved from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 16:00:10,481] {logging_mixin.py:104} INFO - [2021-07-12 16:00:10,481] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-12 16:00:10,492] {logging_mixin.py:104} INFO - [2021-07-12 16:00:10,492] {dag.py:2306} INFO - Setting next_dagrun for spotify_dag to 2021-06-17T00:00:00+00:00
+[2021-07-12 16:00:10,503] {scheduler_job.py:190} INFO - Processing /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py took 0.784 seconds
+[2021-07-12 16:01:02,321] {scheduler_job.py:182} INFO - Started process (PID=74879) to work on /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 16:01:02,321] {scheduler_job.py:633} INFO - Processing file /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py for tasks to queue
+[2021-07-12 16:01:02,322] {logging_mixin.py:104} INFO - [2021-07-12 16:01:02,322] {dagbag.py:496} INFO - Filling up the DagBag from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 16:01:02,744] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['spotify_dag']) retrieved from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 16:01:02,780] {logging_mixin.py:104} INFO - [2021-07-12 16:01:02,780] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-12 16:01:02,788] {logging_mixin.py:104} INFO - [2021-07-12 16:01:02,788] {dag.py:2306} INFO - Setting next_dagrun for spotify_dag to 2021-06-17T00:00:00+00:00
+[2021-07-12 16:01:02,797] {scheduler_job.py:190} INFO - Processing /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py took 0.476 seconds
+[2021-07-12 16:01:47,082] {scheduler_job.py:182} INFO - Started process (PID=74921) to work on /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 16:01:47,083] {scheduler_job.py:633} INFO - Processing file /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py for tasks to queue
+[2021-07-12 16:01:47,084] {logging_mixin.py:104} INFO - [2021-07-12 16:01:47,083] {dagbag.py:496} INFO - Filling up the DagBag from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 16:01:47,807] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['spotify_dag']) retrieved from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 16:01:47,857] {logging_mixin.py:104} INFO - [2021-07-12 16:01:47,857] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-12 16:01:47,869] {logging_mixin.py:104} INFO - [2021-07-12 16:01:47,869] {dag.py:2306} INFO - Setting next_dagrun for spotify_dag to 2021-06-17T00:00:00+00:00
+[2021-07-12 16:01:47,881] {scheduler_job.py:190} INFO - Processing /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py took 0.800 seconds
+[2021-07-12 16:02:37,085] {scheduler_job.py:182} INFO - Started process (PID=74963) to work on /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 16:02:37,086] {scheduler_job.py:633} INFO - Processing file /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py for tasks to queue
+[2021-07-12 16:02:37,086] {logging_mixin.py:104} INFO - [2021-07-12 16:02:37,086] {dagbag.py:496} INFO - Filling up the DagBag from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 16:02:37,555] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['spotify_dag']) retrieved from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 16:02:37,592] {logging_mixin.py:104} INFO - [2021-07-12 16:02:37,592] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-12 16:02:37,600] {logging_mixin.py:104} INFO - [2021-07-12 16:02:37,600] {dag.py:2306} INFO - Setting next_dagrun for spotify_dag to 2021-06-17T00:00:00+00:00
+[2021-07-12 16:02:37,612] {scheduler_job.py:190} INFO - Processing /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py took 0.528 seconds
+[2021-07-12 16:03:23,561] {scheduler_job.py:182} INFO - Started process (PID=75004) to work on /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 16:03:23,561] {scheduler_job.py:633} INFO - Processing file /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py for tasks to queue
+[2021-07-12 16:03:23,562] {logging_mixin.py:104} INFO - [2021-07-12 16:03:23,561] {dagbag.py:496} INFO - Filling up the DagBag from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 16:03:23,988] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['spotify_dag']) retrieved from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 16:03:24,033] {logging_mixin.py:104} INFO - [2021-07-12 16:03:24,032] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-12 16:03:24,042] {logging_mixin.py:104} INFO - [2021-07-12 16:03:24,042] {dag.py:2306} INFO - Setting next_dagrun for spotify_dag to 2021-06-17T00:00:00+00:00
+[2021-07-12 16:03:24,055] {scheduler_job.py:190} INFO - Processing /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py took 0.495 seconds
+[2021-07-12 16:04:10,330] {scheduler_job.py:182} INFO - Started process (PID=75048) to work on /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 16:04:10,331] {scheduler_job.py:633} INFO - Processing file /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py for tasks to queue
+[2021-07-12 16:04:10,331] {logging_mixin.py:104} INFO - [2021-07-12 16:04:10,331] {dagbag.py:496} INFO - Filling up the DagBag from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 16:04:10,748] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['spotify_dag']) retrieved from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 16:04:10,784] {logging_mixin.py:104} INFO - [2021-07-12 16:04:10,784] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-12 16:04:10,794] {logging_mixin.py:104} INFO - [2021-07-12 16:04:10,794] {dag.py:2306} INFO - Setting next_dagrun for spotify_dag to 2021-06-17T00:00:00+00:00
+[2021-07-12 16:04:10,810] {scheduler_job.py:190} INFO - Processing /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py took 0.480 seconds
+[2021-07-12 16:04:55,031] {scheduler_job.py:182} INFO - Started process (PID=75088) to work on /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 16:04:55,031] {scheduler_job.py:633} INFO - Processing file /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py for tasks to queue
+[2021-07-12 16:04:55,032] {logging_mixin.py:104} INFO - [2021-07-12 16:04:55,032] {dagbag.py:496} INFO - Filling up the DagBag from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 16:04:55,476] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['spotify_dag']) retrieved from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 16:04:55,521] {logging_mixin.py:104} INFO - [2021-07-12 16:04:55,521] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-12 16:04:55,529] {logging_mixin.py:104} INFO - [2021-07-12 16:04:55,529] {dag.py:2306} INFO - Setting next_dagrun for spotify_dag to 2021-06-17T00:00:00+00:00
+[2021-07-12 16:04:55,541] {scheduler_job.py:190} INFO - Processing /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py took 0.511 seconds
+[2021-07-12 16:05:34,171] {scheduler_job.py:182} INFO - Started process (PID=75124) to work on /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 16:05:34,171] {scheduler_job.py:633} INFO - Processing file /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py for tasks to queue
+[2021-07-12 16:05:34,171] {logging_mixin.py:104} INFO - [2021-07-12 16:05:34,171] {dagbag.py:496} INFO - Filling up the DagBag from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 16:05:34,606] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['spotify_dag']) retrieved from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 16:05:34,647] {logging_mixin.py:104} INFO - [2021-07-12 16:05:34,646] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-12 16:05:34,657] {logging_mixin.py:104} INFO - [2021-07-12 16:05:34,657] {dag.py:2306} INFO - Setting next_dagrun for spotify_dag to 2021-06-17T00:00:00+00:00
+[2021-07-12 16:05:34,668] {scheduler_job.py:190} INFO - Processing /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py took 0.498 seconds
+[2021-07-12 16:06:12,911] {scheduler_job.py:182} INFO - Started process (PID=75160) to work on /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 16:06:12,912] {scheduler_job.py:633} INFO - Processing file /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py for tasks to queue
+[2021-07-12 16:06:12,912] {logging_mixin.py:104} INFO - [2021-07-12 16:06:12,912] {dagbag.py:496} INFO - Filling up the DagBag from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 16:06:13,336] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['spotify_dag']) retrieved from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 16:06:13,372] {logging_mixin.py:104} INFO - [2021-07-12 16:06:13,372] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-12 16:06:13,380] {logging_mixin.py:104} INFO - [2021-07-12 16:06:13,380] {dag.py:2306} INFO - Setting next_dagrun for spotify_dag to 2021-06-17T00:00:00+00:00
+[2021-07-12 16:06:13,391] {scheduler_job.py:190} INFO - Processing /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py took 0.480 seconds
+[2021-07-12 16:06:51,963] {scheduler_job.py:182} INFO - Started process (PID=75197) to work on /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 16:06:51,964] {scheduler_job.py:633} INFO - Processing file /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py for tasks to queue
+[2021-07-12 16:06:51,964] {logging_mixin.py:104} INFO - [2021-07-12 16:06:51,964] {dagbag.py:496} INFO - Filling up the DagBag from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 16:06:52,389] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['spotify_dag']) retrieved from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 16:06:52,425] {logging_mixin.py:104} INFO - [2021-07-12 16:06:52,425] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-12 16:06:52,435] {logging_mixin.py:104} INFO - [2021-07-12 16:06:52,434] {dag.py:2306} INFO - Setting next_dagrun for spotify_dag to 2021-06-17T00:00:00+00:00
+[2021-07-12 16:06:52,445] {scheduler_job.py:190} INFO - Processing /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py took 0.483 seconds
+[2021-07-12 16:07:37,713] {scheduler_job.py:182} INFO - Started process (PID=75236) to work on /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 16:07:37,714] {scheduler_job.py:633} INFO - Processing file /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py for tasks to queue
+[2021-07-12 16:07:37,714] {logging_mixin.py:104} INFO - [2021-07-12 16:07:37,714] {dagbag.py:496} INFO - Filling up the DagBag from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 16:07:38,143] {scheduler_job.py:643} INFO - DAG(s) dict_keys(['spotify_dag']) retrieved from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 16:07:38,183] {logging_mixin.py:104} INFO - [2021-07-12 16:07:38,182] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-07-12 16:07:38,194] {logging_mixin.py:104} INFO - [2021-07-12 16:07:38,194] {dag.py:2306} INFO - Setting next_dagrun for spotify_dag to 2021-06-17T00:00:00+00:00
+[2021-07-12 16:07:38,205] {scheduler_job.py:190} INFO - Processing /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py took 0.493 seconds
+[2021-07-12 16:08:59,106] {scheduler_job.py:182} INFO - Started process (PID=75337) to work on /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 16:08:59,107] {scheduler_job.py:633} INFO - Processing file /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py for tasks to queue
+[2021-07-12 16:08:59,108] {logging_mixin.py:104} INFO - [2021-07-12 16:08:59,108] {dagbag.py:496} INFO - Filling up the DagBag from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 16:08:59,129] {logging_mixin.py:104} INFO - [2021-07-12 16:08:59,127] {dagbag.py:329} ERROR - Failed to import: /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+Traceback (most recent call last):
+  File "/Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py", line 6, in <module>
+    from spotify_etl import run_spotify_etl
+ImportError: cannot import name 'run_spotify_etl' from 'spotify_etl' (/Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_etl.py)
+[2021-07-12 16:08:59,129] {scheduler_job.py:645} WARNING - No viable dags retrieved from /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py
+[2021-07-12 16:08:59,182] {scheduler_job.py:190} INFO - Processing /Users/pierre-olivierboisvert/Desktop/GIT/Spotify-ETL/api/dags/spotify_dag.py took 0.077 seconds

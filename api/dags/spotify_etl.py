@@ -1,116 +1,198 @@
-import sqlalchemy
-import pandas as pd 
-from sqlalchemy.orm import sessionmaker
-import requests
+# https://github.com/caseychu/spotify-backup
+# https://www.youtube.com/watch?v=xdq6Gz33khQ
+# https://www.youtube.com/watch?v=3vvvjdmBoyc
+
+#!/usr/bin/env python3
+
+# dependencies
+import argparse 
+import codecs
+import http.client
+import http.server
 import json
-from datetime import datetime
+import logging
+import re
+import sys
+import time
+import urllib.error
+import urllib.parse
+import urllib.request
+import webbrowser
 import datetime
-import sqlite3
+import os
+
+logging.basicConfig(level=20, datefmt='%I:%M:%S', format='[%(asctime)s] %(message)s')
 
 
-# Generate your token here:  https://developer.spotify.com/console/get-recently-played/
-# Note: You need a Spotify account (can be easily created for free)
+class SpotifyAPI:
+	
+	# Requires an OAuth token.
+	def __init__(self, auth):
+		self._auth = auth
+	
+	# Gets a resource from the Spotify API and returns the object.
+	def get(self, url, params={}, tries=3):
+		# Construct the correct URL.
+		if not url.startswith('https://api.spotify.com/v1/'):
+			url = 'https://api.spotify.com/v1/' + url
+		if params:
+			url += ('&' if '?' in url else '?') + urllib.parse.urlencode(params)
+	
+		# Try the sending off the request a specified number of times before giving up.
+		for _ in range(tries):
+			try:
+				req = urllib.request.Request(url)
+				req.add_header('Authorization', 'Bearer ' + self._auth)
+				res = urllib.request.urlopen(req)
+				reader = codecs.getreader('utf-8')
+				return json.load(reader(res))
+			except Exception as err:
+				logging.info('Couldn\'t load URL: {} ({})'.format(url, err))
+				time.sleep(2)
+				logging.info('Trying again...')
+		sys.exit(1)
+	
+	# The Spotify API breaks long lists into multiple pages. This method automatically
+	# fetches all pages and joins them, returning in a single list of objects.
+	def list(self, url, params={}):
+		last_log_time = time.time()
+		response = self.get(url, params)
+		items = response['items']
 
-def check_if_valid_data(df: pd.DataFrame) -> bool:
-    # Check if dataframe is empty
-    if df.empty:
-        print("No songs downloaded. Finishing execution")
-        return False 
+		while response['next']:
+			if time.time() > last_log_time + 15:
+				last_log_time = time.time()
+				logging.info(f"Loaded {len(items)}/{response['total']} items")
 
-    # Primary Key Check
-    if pd.Series(df['played_at']).is_unique:
-        pass
-    else:
-        raise Exception("Primary Key check is violated")
+			response = self.get(response['next'])
+			items += response['items']
+		return items
+	
+	# Pops open a browser window for a user to log in and authorize API access.
+	@staticmethod
+	def authorize(client_id, scope):
+		url = 'https://accounts.spotify.com/authorize?' + urllib.parse.urlencode({
+			'response_type': 'token',
+			'client_id': client_id,
+			'scope': scope,
+			'redirect_uri': 'http://127.0.0.1:{}/redirect'.format(SpotifyAPI._SERVER_PORT)
+		})
+		logging.info(f'Logging in (click if it doesn\'t open automatically): {url}')
+		webbrowser.open(url)
+	
+		# Start a simple, local HTTP server to listen for the authorization token... (i.e. a hack).
+		server = SpotifyAPI._AuthorizationServer('127.0.0.1', SpotifyAPI._SERVER_PORT)
+		try:
+			while True:
+				server.handle_request()
+		except SpotifyAPI._Authorization as auth:
+			return SpotifyAPI(auth.access_token)
+	
+	# The port that the local server listens on. Don't change this,
+	# as Spotify only will redirect to certain predefined URLs.
+	_SERVER_PORT = 43019
+	
+	class _AuthorizationServer(http.server.HTTPServer):
+		def __init__(self, host, port):
+			http.server.HTTPServer.__init__(self, (host, port), SpotifyAPI._AuthorizationHandler)
+		
+		# Disable the default error handling.
+		def handle_error(self, request, client_address):
+			raise
+	
+	class _AuthorizationHandler(http.server.BaseHTTPRequestHandler):
+		def do_GET(self):
+			# The Spotify API has redirected here, but access_token is hidden in the URL fragment.
+			# Read it using JavaScript and send it to /token as an actual query string...
+			if self.path.startswith('/redirect'):
+				self.send_response(200)
+				self.send_header('Content-Type', 'text/html')
+				self.end_headers()
+				self.wfile.write(b'<script>location.replace("token?" + location.hash.slice(1));</script>')
+			
+			# Read access_token and use an exception to kill the server listening...
+			elif self.path.startswith('/token?'):
+				self.send_response(200)
+				self.send_header('Content-Type', 'text/html')
+				self.end_headers()
+				self.wfile.write(b'<script>close()</script>You ar enow connected. Please close this window.')
 
-    # Check for nulls
-    if df.isnull().values.any():
-        raise Exception("Null values found")
+				access_token = re.search('access_token=([^&]*)', self.path).group(1)
+				logging.info(f'Received access token from Spotify: {access_token}')
+				raise SpotifyAPI._Authorization(access_token)
+			
+			else:
+				self.send_error(404)
+		
+		# Disable the default logging.
+		def log_message(self, format, *args):
+			pass
+	
+	class _Authorization(Exception):
+		def __init__(self, access_token):
+			self.access_token = access_token
 
-    # Check that all timestamps are of yesterday's date
-    yesterday = datetime.datetime.now() - datetime.timedelta(days=1)
-    yesterday = yesterday.replace(hour=0, minute=0, second=0, microsecond=0)
 
-    timestamps = df["timestamp"].tolist()
-    for timestamp in timestamps:
-        if datetime.datetime.strptime(timestamp, '%Y-%m-%d') != yesterday:
-            raise Exception("At least one of the returned songs does not have a yesterday's timestamp")
+def main():
+	# Parse arguments. --format txt in the command (e.g. python main.py --format txt)
+	parser = argparse.ArgumentParser(description='Exports your Spotify playlists. By default, opens a browser window '
+	                                           + 'to authorize the Spotify Web API, but you can also manually specify'
+	                                           + ' an OAuth token with the --token option.')
 
-    return True
+	# If the function is not longer working. Manual token
+	parser.add_argument('--token', metavar='OAUTH_TOKEN', help='use a Spotify OAuth token (requires the '
+	                                                         + '`playlist-read-private` permission)')
+	parser.add_argument('--dump', default='played', choices=['liked,playlists', 'playlists,liked', 'playlists', 'liked'],
+	                    help='dump playlists, played or liked songs, or both (default: played)')
 
+	parser.add_argument('file', help='output filename', nargs='?')
+	parser.add_argument('ext', help='output filename', nargs='?')
+	args = parser.parse_args()
+	
+	# If they didn't give a filename, then just prompt them. (They probably just double-clicked.)
+	while not args.file:
+		args.file = input('Filename without the extension (e.g. music): ')
+		#args.format = args.file.split('.')[-1] # split file after the dot
+		args.ext = input('Add the extension (.json): ')
 
-def run_spotify_etl():
-    DATABASE_LOCATION = "sqlite:///my_played_tracks.sqlite"
-    USER_ID = ''
-    TOKEN = ''
+	
+	# Log into the Spotify API.
+	if args.token:
+		spotify = SpotifyAPI(args.token)
+	else:
+		spotify = SpotifyAPI.authorize(client_id='5c098bcc800e45d49e476265bc9b6934',
+		                               scope='playlist-read-private playlist-read-collaborative user-library-read user-read-recently-played user-read-currently-playing')
+	
+	# Get the ID of the logged in user.
+	logging.info('Loading user info...')
+	me = spotify.get('me')
+	logging.info('Logged in as {display_name} ({id})'.format(**me)) # We do no longer need the username to call the Spotify API. Keep for the logging since I dont't trust tech
 
-      # Extract part of the ETL process
- 
-    headers = {
-        "Accept" : "application/json",
-        "Content-Type" : "application/json",
-        "Authorization" : "Bearer {token}".format(token=TOKEN)
-    }
-    
-    # Convert time to Unix timestamp in miliseconds      
-    today = datetime.datetime.now()
-    yesterday = today - datetime.timedelta(days=1)
-    yesterday_unix_timestamp = int(yesterday.timestamp()) * 1000
+	playlists = []
 
-    # Download all songs you've listened to "after yesterday", which means in the last 24 hours      
-    r = requests.get("https://api.spotify.com/v1/me/player/recently-played?after={time}".format(time=yesterday_unix_timestamp), headers = headers)
+	# Date Format
+	today = datetime.datetime.now()
+	yesterday = today - datetime.timedelta(days=1)
+	yesterday_unix_timestamp = int(yesterday.timestamp()) * 1000
 
-    data = r.json()
+	# List played songs
+	if 'played' in args.dump:
+		logging.info('Loading played songs...')
+		played_tracks = spotify.list('me/player/recently-played', {'limit': 50, 'time': yesterday_unix_timestamp})
 
-    song_names = []
-    artist_names = []
-    played_at_list = []
-    timestamps = []
+		playlists += [{'name': 'played Songs', 'tracks': played_tracks}]
+	
+	# Write the file.
+	save_path = './DB'
+	completeName = os.path.join(save_path, args.file+ args.ext)
 
-    # Extracting only the relevant bits of data from the json object      
-    for song in data["items"]:
-        song_names.append(song["track"]["name"])
-        artist_names.append(song["track"]["album"]["artists"][0]["name"])
-        played_at_list.append(song["played_at"])
-        timestamps.append(song["played_at"][0:10])
-        
-    # Prepare a dictionary in order to turn it into a pandas dataframe below       
-    song_dict = {
-        "song_name" : song_names,
-        "artist_name": artist_names,
-        "played_at" : played_at_list,
-        "timestamp" : timestamps
-    }
+	logging.info('Writing files...')
+	with open(completeName, 'w', encoding='utf-8') as f:
 
-    song_df = pd.DataFrame(song_dict, columns = ["song_name", "artist_name", "played_at", "timestamp"])
-    
-    # Validate
-    if check_if_valid_data(song_df):
-        print("Data valid, proceed to Load stage")
+		# JSON file.
+		json.dump(playlists, f)
+		
+	logging.info('Wrote file: ' + args.file + args.ext)
 
-    # Load
-
-    engine = sqlalchemy.create_engine(DATABASE_LOCATION)
-    conn = sqlite3.connect('my_played_tracks.sqlite')
-    cursor = conn.cursor()
-
-    sql_query = """
-    CREATE TABLE IF NOT EXISTS my_played_tracks(
-        song_name VARCHAR(200),
-        artist_name VARCHAR(200),
-        played_at VARCHAR(200),
-        timestamp VARCHAR(200),
-        CONSTRAINT primary_key_constraint PRIMARY KEY (played_at)
-    )
-    """
-
-    cursor.execute(sql_query)
-    print("Opened database successfully")
-
-    try:
-        song_df.to_sql("my_played_tracks", engine, index=False, if_exists='append')
-    except:
-        print("Data already exists in the database")
-
-    conn.close()
-    print("Close database successfully")
+if __name__ == '__main__':
+	main()
